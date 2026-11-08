@@ -1,0 +1,3396 @@
+import { VoiceModel } from '../types/tts';
+
+export const AI_VOICES: VoiceModel[] = [
+  {
+    "id": "urdu-tariq-master",
+    "name": "Tariq (طارق - داستان گو)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Lahori / Classical Dastan-goi)",
+    "description": "Master Pakistani Urdu storyteller with deep resonance, majestic dramatic pauses, and flawless classical pronunciation for YouTube stories and folklore.",
+    "sampleText": "ایک دفعہ کا ذکر ہے کہ ایک پرانے گاؤں میں ایک محنتی کبوتر رہتا تھا۔ وہ ہر روز صبح سویرے اٹھ کر اپنے وطن کی خدمت کرتا تھا۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Storytelling",
+      "Dramatic",
+      "Emotional",
+      "Calm"
+    ],
+    "tags": [
+      "Urdu Storytelling",
+      "Deep Voice",
+      "Pakistani Accent",
+      "YouTube Stories",
+      "Folklore"
+    ]
+  },
+  {
+    "id": "urdu-farhan-bass",
+    "name": "Farhan (فرحان - الٹرا ڈیپ بیس)",
+    "gender": "male",
+    "category": "Ultra Deep Bass Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Deep Rawalpindi Baritone)",
+    "description": "Ultra deep bass Pakistani male voice with thunderous resonance and commanding presence for epic Urdu trailers, thrillers, and historical sagas.",
+    "sampleText": "جب ظلم کی سیاہی چھا جاتی ہے، تو سچائی کا ایک ہی نعرہ اندھیروں کو چیر کر رکھ دیتا ہے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Dramatic",
+      "Serious",
+      "Documentary",
+      "Storytelling"
+    ],
+    "tags": [
+      "Ultra Deep Bass",
+      "Urdu Bass",
+      "Epic Trailer",
+      "Pakistani"
+    ]
+  },
+  {
+    "id": "urdu-bilal-doc",
+    "name": "Bilal (بلال - دستاویزی راوی)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Islamabad / Broadcast Urdu)",
+    "description": "Authoritative, clear, and commanding male voice crafted for documentaries, history lessons, investigative reports, and news analysis.",
+    "sampleText": "تاریخ کے اس موڑ پر ایک ایسا فیصلہ ہوا جس نے برصغیر کی تقدیر کو ہمیشہ کے لیے بدل کر رکھ دیا۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Documentary",
+      "Serious",
+      "Professional",
+      "Dramatic"
+    ],
+    "tags": [
+      "Urdu Documentary",
+      "Authoritative Male",
+      "Broadcast Quality",
+      "History"
+    ]
+  },
+  {
+    "id": "urdu-imran-motivational",
+    "name": "Imran (عمران - پرجوش خطیب)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Dynamic Leadership)",
+    "description": "Electrifying, inspiring, and confident Pakistani motivational orator. Delivers speeches with passion, vigor, and emotional conviction.",
+    "sampleText": "ہمت نہ ہارو! ہر ناکامی کامیابی کی پہلی سیڑھی ہے۔ اپنے خوابوں کی تعبیر کے لیے آج ہی اٹھ کھڑے ہو!",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "VR6AewLTigWG4xSOukaG",
+    "recommendedStyles": [
+      "Excited",
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Urdu Motivational",
+      "Leadership",
+      "Inspiring",
+      "High Energy"
+    ]
+  },
+  {
+    "id": "urdu-rashid-baritone",
+    "name": "Rashid (راشد - باریٹون ادبا)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Classic Urdu Adab)",
+    "description": "Warm and rich baritone for classical Urdu literature, Iqbaliyat, historical novels, and serious analytical presentations.",
+    "sampleText": "عقل کو تنقید سے فرصت نہیں، عشق پر اعمال کی بنیاد رکھ۔ زندگی کا سفر یقین اور عمل کا نام ہے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Serious",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Urdu Baritone",
+      "Classical Literature",
+      "Iqbaliyat",
+      "Mature"
+    ]
+  },
+  {
+    "id": "urdu-hamza-young",
+    "name": "Hamza (حمزہ - جدید نوجوان)",
+    "gender": "male",
+    "category": "Young Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Contemporary Urban Youth)",
+    "description": "Energetic, modern, and relatable young Pakistani male voice for YouTube tech reviews, gaming, vlogs, and youth podcasts.",
+    "sampleText": "السلام علیکم دوستو! آج ہم دیکھیں گے کہ نیا اسمارٹ فون کس طرح ہماری روزمرہ زندگی کو یکسر بدل دیتا ہے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Friendly",
+      "Excited",
+      "Happy"
+    ],
+    "tags": [
+      "Young Male",
+      "Urdu YouTube",
+      "Tech & Gaming",
+      "Modern"
+    ]
+  },
+  {
+    "id": "urdu-usman-cinematic",
+    "name": "Usman (عثمان - فلمی سسپنس)",
+    "gender": "male",
+    "category": "Cinematic Deep Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Theatrical Resonance)",
+    "description": "Cinematic deep male narrator with suspenseful pacing, perfect for mystery stories, crime chronicles, and epic YouTube sagas.",
+    "sampleText": "رات کی تاریکی گہری ہو چکی تھی اور پرانے قلعے کی فصیلوں سے پراسرار آوازیں ابھرنے لگیں۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "recommendedStyles": [
+      "Suspenseful",
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Cinematic Deep",
+      "Mystery Stories",
+      "Suspense",
+      "Pakistani"
+    ]
+  },
+  {
+    "id": "urdu-kamran-leader",
+    "name": "Kamran (کامران - باوقار صدا)",
+    "gender": "male",
+    "category": "Strong Authoritative Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Corporate & Executive)",
+    "description": "Commanding corporate presenter voice for official government, commercial, and educational announcements in Pakistan.",
+    "sampleText": "قومی ترقی اور خوشحالی کے اس نئے سفر میں ہم سب کو مل کر اپنا بھرپور کردار ادا کرنا ہوگا۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "bVMeCyTHy58xNoL34h3p",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "Authoritative",
+      "Corporate Urdu",
+      "Executive",
+      "Official"
+    ]
+  },
+  {
+    "id": "urdu-waqas-suspense",
+    "name": "Waqas (وقاص - پراسرار کہانیاں)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Narrative Suspense)",
+    "description": "Gripping narrator for thriller novels, ghost stories, detective cases, and investigative Urdu podcasts.",
+    "sampleText": "جاسوس نے جب بند کمرے کا دروازہ کھولا تو سامنے ایک ایسا ثبوت تھا جس نے سب کو ہلا کر رکھ دیا۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Suspenseful",
+      "Dramatic"
+    ],
+    "tags": [
+      "Thriller",
+      "Crime Mystery",
+      "Urdu Storyteller"
+    ]
+  },
+  {
+    "id": "urdu-asif-mature",
+    "name": "Asif (آصف - سنجیدہ بزرگ راوی)",
+    "gender": "male",
+    "category": "Mature Male",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Elderly Wisdom & Warmth)",
+    "description": "Wise, thoughtful senior storyteller voice with gravelly warmth, ideal for historical anecdotes, grandfatherly fables, and nostalgic memories.",
+    "sampleText": "میرے بچو! پچاس سال پہلے جب ہم اس وادی میں آئے تو یہاں صرف سرسبز کھیت اور پرندوں کے گیت تھے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "yoZ06aMxZJJ28mfd3POQ",
+    "recommendedStyles": [
+      "Storytelling",
+      "Emotional",
+      "Calm"
+    ],
+    "tags": [
+      "Mature Urdu",
+      "Wise Elder",
+      "Historical Nostalgia"
+    ]
+  },
+  {
+    "id": "urdu-daniyal-news",
+    "name": "Daniyal (دانیال - نیوز کاسٹر)",
+    "gender": "male",
+    "category": "News Presenter",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Prime Time Bulletin)",
+    "description": "Fast-paced, confident, and crisp prime-time Urdu news anchor delivery for breaking news bulletins and sports roundups.",
+    "sampleText": "ہیڈلائنز کے ساتھ میں ہوں دانیال۔ اسلام آباد سے اہم سیاسی پیش رفت سامنے آئی ہے، تفصیلات جانیے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "bVMeCyTHy58xNoL34h3p",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "Urdu News Anchor",
+      "Prime Time",
+      "Bulletins"
+    ]
+  },
+  {
+    "id": "urdu-zoya-poet",
+    "name": "Zoya (زویا - شاعری و جذبات)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Karachi / Expressive Melodic)",
+    "description": "Soft, heartfelt female Urdu voice with elegant cadences, ideal for emotional dramas, poetic recitations, and gentle storytelling.",
+    "sampleText": "زندگی کا اصل حسن ان چھوٹی چھوٹی خوشیوں میں چھپا ہوتا ہے جو ہم روزمرہ کی دوڑ میں دیکھنا بھول جاتے ہیں۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Emotional",
+      "Calm",
+      "Storytelling",
+      "Happy"
+    ],
+    "tags": [
+      "Urdu Soft Female",
+      "Poetic",
+      "Emotional Drama",
+      "Pakistani Accent"
+    ]
+  },
+  {
+    "id": "urdu-sadia-audiobook",
+    "name": "Sadia (سعدیہ - آڈیو بک راویہ)",
+    "gender": "female",
+    "category": "Audiobook Narrator",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Literary Urdu)",
+    "description": "Soothing and melodic narrator designed for long-form Urdu novels, bedtime stories, and classic Urdu literature recordings.",
+    "sampleText": "چاندنی رات میں جب پورا گاؤں سو جاتا، تو دریا کی لہروں کی سرگوشی دور تک سنائی دیتی تھی۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling",
+      "Emotional"
+    ],
+    "tags": [
+      "Audiobook",
+      "Urdu Novel",
+      "Soothing",
+      "Long Story"
+    ]
+  },
+  {
+    "id": "urdu-ayesha-drama",
+    "name": "Ayesha (عائشہ - ڈرامائی آواز)",
+    "gender": "female",
+    "category": "Emotional Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Modern Urban Urdu)",
+    "description": "Dynamic and emotionally expressive female narrator, perfect for moral tales, character dialogues, and engaging presentations.",
+    "sampleText": "اس نے جب کھڑکی سے باہر دیکھا تو بارش کی پہلی بوندیں سوکھی مٹی کو مہکا رہی تھیں۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Emotional",
+      "Excited",
+      "Storytelling",
+      "Friendly"
+    ],
+    "tags": [
+      "Urdu Expressive",
+      "Character Voice",
+      "Pakistani Accent",
+      "Storyteller"
+    ]
+  },
+  {
+    "id": "urdu-mehwish-news",
+    "name": "Mehwish (مہوش - ٹی وی اینکر)",
+    "gender": "female",
+    "category": "Professional Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (National News Anchor)",
+    "description": "Crisp, articulate broadcast journalist delivery suitable for headline bulletins, current affairs, and documentary specials.",
+    "sampleText": "اب وقت ہوا ہے آج کے اہم ترین قومی اور بین الاقوامی خبروں کا۔ اسلام آباد سے اہم پیش رفت سامنے آئی ہے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "pMsXgVXv3BLzUgSXRplE",
+    "recommendedStyles": [
+      "Professional",
+      "Serious",
+      "Documentary"
+    ],
+    "tags": [
+      "Urdu News Anchor",
+      "Broadcast",
+      "Professional Female"
+    ]
+  },
+  {
+    "id": "urdu-maryam-classic",
+    "name": "Maryam (مریم - کلاسیکی اردو)",
+    "gender": "female",
+    "category": "Rich & Warm Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Classic Sophistication)",
+    "description": "Rich, mature female voice with cultural depth and poise, tailored for Urdu literary podcasts, biographies, and arts.",
+    "sampleText": "مرزا غالب کی شاعری میں انسانی جذبات اور فلسفے کا جو امتزاج ملتا ہے، وہ اردو ادب کا انمول سرمایہ ہے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "jsCqWAovK2LkecY7zXl4",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling",
+      "Professional"
+    ],
+    "tags": [
+      "Rich Female",
+      "Literary",
+      "Culture",
+      "Ghalib"
+    ]
+  },
+  {
+    "id": "urdu-bushra-motivational",
+    "name": "Bushra (بشریٰ - حوصلہ افزا)",
+    "gender": "female",
+    "category": "Motivational Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Inspiring Mentor)",
+    "description": "Empowering, passionate female motivational speaker voice to uplift women, students, and aspiring entrepreneurs in Urdu.",
+    "sampleText": "آپ کے اندر وہ تمام صلاحیتیں موجود ہیں جن سے آپ اپنی تقدیر خود بدل سکتے ہیں۔ کبھی ہمت مت ہاریں!",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "AZnzlk1XvdvUeBnXmlld",
+    "recommendedStyles": [
+      "Excited",
+      "Emotional",
+      "Happy"
+    ],
+    "tags": [
+      "Urdu Motivational Female",
+      "Mentor",
+      "Inspirational"
+    ]
+  },
+  {
+    "id": "urdu-saba-gentle",
+    "name": "Saba (صبا - نرم و نازک سُر)",
+    "gender": "female",
+    "category": "Soft Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Gentle Warmth)",
+    "description": "Whisper-soft, soothing bedtime reader voice for children stories, guided relaxation, and meditation in Urdu.",
+    "sampleText": "آنکھیں بند کر کے رات کی پرسکون ٹھنڈک کو محسوس کریں۔ تمام پریشانیاں دور بہہ رہی ہیں۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "piTKgcLEGmPE4e6mEKli",
+    "recommendedStyles": [
+      "Calm",
+      "Emotional"
+    ],
+    "tags": [
+      "Soft Female",
+      "Bedtime Stories",
+      "Calm",
+      "Meditation"
+    ]
+  },
+  {
+    "id": "urdu-zainab-edu",
+    "name": "Zainab (زینب - استانی)",
+    "gender": "female",
+    "category": "Educational Narrator",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Teacher & Educator)",
+    "description": "Clear, patient educational narrator for school curriculums, science explainers, and Islamic history lessons.",
+    "sampleText": "آج ہم نظام شمسی کے سیاروں اور کائنات کی وسعتوں کے بارے میں تفصیلی مطالعہ کریں گے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Professional",
+      "Friendly",
+      "Documentary"
+    ],
+    "tags": [
+      "Educational",
+      "Urdu Teacher",
+      "Science Explainer"
+    ]
+  },
+  {
+    "id": "urdu-hina-friendly",
+    "name": "Hina (حنا - دوستانہ انداز)",
+    "gender": "female",
+    "category": "Friendly Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Warm Conversational)",
+    "description": "Bubbly, warm, and friendly Pakistani female voice for cooking tutorials, lifestyle channels, and product explainers.",
+    "sampleText": "سب کو میری طرف سے سلام! آج ہم لذیذ بریانی بنانے کا روایتی اور آسان طریقہ سیکھیں گے۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "recommendedStyles": [
+      "Friendly",
+      "Happy"
+    ],
+    "tags": [
+      "Urdu Lifestyle",
+      "Cooking",
+      "Friendly Female"
+    ]
+  },
+  {
+    "id": "urdu-rubina-deep-female",
+    "name": "Rubina (روبینہ - گہری پروقار آواز)",
+    "gender": "female",
+    "category": "Deep Female",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Mature Contralto)",
+    "description": "Deep, resonant, and mature Pakistani female voice suited for solemn historical documentaries, biopics, and serious audio narration.",
+    "sampleText": "وقت کے دھارے میں وہی قومیں زندہ رہتی ہیں جو اپنی تاریخی روایات اور اقدار کو سینے سے لگا کر رکھتی ہیں۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "XB0fDUnXU5powFXDhCwa",
+    "recommendedStyles": [
+      "Serious",
+      "Documentary",
+      "Calm"
+    ],
+    "tags": [
+      "Urdu Deep Female",
+      "Contralto",
+      "History",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "urdu-noman-crime",
+    "name": "Noman (نعمان - کرائم انویسٹی گیشن)",
+    "gender": "male",
+    "category": "Cinematic Narrator",
+    "language": "Urdu",
+    "languageCode": "ur-PK",
+    "accent": "Pakistani (Investigative Crime Host)",
+    "description": "Intense, brooding male narrator for Urdu true crime series, investigative YouTube documentaries, and forensic cases.",
+    "sampleText": "پولیس کو ملنے والے اس گمشدہ خط نے قتل کے اس پراسرار مقدمے کو ایک نیا رخ دے دیا تھا۔",
+    "isUrduSpecialist": true,
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "recommendedStyles": [
+      "Suspenseful",
+      "Serious",
+      "Dramatic"
+    ],
+    "tags": [
+      "True Crime",
+      "Investigative",
+      "Urdu Mystery"
+    ]
+  },
+  {
+    "id": "male-marcus-ultra-bass",
+    "name": "Marcus (Ultra Deep Bass)",
+    "gender": "male",
+    "category": "Ultra Deep Bass Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Movie Trailer Thunder)",
+    "description": "Ultra deep bass male voice with seismic low-frequency resonance. Designed for blockbuster film trailers, game intros, and epic sagas.",
+    "sampleText": "In a world divided by shadow and steel, only one warrior dared to cross the forbidden abyss.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Dramatic",
+      "Suspenseful",
+      "Serious"
+    ],
+    "tags": [
+      "Ultra Deep Bass",
+      "Movie Trailer",
+      "Seismic Lows",
+      "Blockbuster"
+    ]
+  },
+  {
+    "id": "male-victor-deep-bass",
+    "name": "Victor (Deep Bass Narrator)",
+    "gender": "male",
+    "category": "Deep Bass Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Gravel & Authority)",
+    "description": "Heavy, weathered deep bass baritone. Superb for dark fantasy audiobooks, gritty investigative documentaries, and war history.",
+    "sampleText": "The winter had arrived early, freezing the northern battlefields into sheets of impenetrable ice.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "2EiwWnXFnvU5JabPnv8n",
+    "recommendedStyles": [
+      "Documentary",
+      "Dramatic",
+      "Serious"
+    ],
+    "tags": [
+      "Deep Bass",
+      "Gravel",
+      "War History",
+      "Audiobook"
+    ]
+  },
+  {
+    "id": "male-julian-baritone",
+    "name": "Julian (Rich Baritone)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Oxford Baritone)",
+    "description": "Cultured, resonant British baritone with theatrical nuance, perfect for classical historical essays, mythology, and luxury brands.",
+    "sampleText": "Beneath the ancient cathedral stones lay centuries of unspoken secrets, guarded by the silent hands of time.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Documentary",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Rich Baritone",
+      "Oxford British",
+      "Historical Essay",
+      "Elegance"
+    ]
+  },
+  {
+    "id": "male-david-deep-doc",
+    "name": "David (Deep Documentary)",
+    "gender": "male",
+    "category": "Deep Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Natural History Broadcaster)",
+    "description": "Inspired by world-renowned nature documentarians. Deep, curious, poetic, and intimately connected to the natural world.",
+    "sampleText": "Here, in the untamed heart of the Serengeti, life and survival dance in perfect, fragile balance.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Documentary",
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Nature Documentary",
+      "Deep Male",
+      "Attenborough Vibe",
+      "Wildlife"
+    ]
+  },
+  {
+    "id": "male-conrad-cinematic",
+    "name": "Conrad (Cinematic Deep)",
+    "gender": "male",
+    "category": "Cinematic Deep Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Cinematic Baritone)",
+    "description": "Deep, dramatic storytelling baritone for video game cutscenes, sci-fi world-building, and suspense thrillers.",
+    "sampleText": "We thought we were alone among the stars. The signal we decoded yesterday proved how wrong we were.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "recommendedStyles": [
+      "Suspenseful",
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Cinematic Deep",
+      "Sci-Fi",
+      "Gaming",
+      "Suspense"
+    ]
+  },
+  {
+    "id": "male-vance-authoritative",
+    "name": "Vance (Strong Authoritative)",
+    "gender": "male",
+    "category": "Strong Authoritative Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Commanding Executive)",
+    "description": "Commanding, deep baritone voice for corporate manifestos, security advisories, and high-stakes executive announcements.",
+    "sampleText": "Precision, accountability, and unwavering integrity: these are the standards that guide our collective mission.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "bVMeCyTHy58xNoL34h3p",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "Commanding",
+      "Authoritative",
+      "Executive",
+      "Corporate"
+    ]
+  },
+  {
+    "id": "male-gideon-deep-baritone",
+    "name": "Gideon (Deep Baritone Male)",
+    "gender": "male",
+    "category": "Deep Baritone Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Warm Low Baritone)",
+    "description": "A rich, dark baritone voice with smooth velvety textures for philosophy podcasts, bedtime essays, and psychological thrillers.",
+    "sampleText": "The human mind is a labyrinth of memories, desires, and dreams waiting to be unraveled.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Serious"
+    ],
+    "tags": [
+      "Deep Baritone",
+      "Velvet",
+      "Podcast Voice",
+      "Dark Tone"
+    ]
+  },
+  {
+    "id": "male-sterling-mature-deep",
+    "name": "Sterling (Mature Deep Male)",
+    "gender": "male",
+    "category": "Mature Deep Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Distinguished Veteran)",
+    "description": "Distinguished, mature deep British voice with impeccable cadence, ideal for royal history, military chronicles, and high fantasy.",
+    "sampleText": "Long before the crown sat upon modern monarchs, dynasties rose and fell upon these misty moors.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Documentary",
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Mature Deep",
+      "Distinguished",
+      "Military History",
+      "British"
+    ]
+  },
+  {
+    "id": "male-kane-powerful-deep",
+    "name": "Kane (Powerful Deep Male)",
+    "gender": "male",
+    "category": "Powerful Deep Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Warrior Stature)",
+    "description": "Raw, powerful deep voice with grit and muscular punch. Built for action trailers, combat video games, and hard-boiled fiction.",
+    "sampleText": "When the gates breach, stand your ground. We fight not for survival, but for the glory of all who follow.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "SOYHLrjzK2X1ezoPC6cr",
+    "recommendedStyles": [
+      "Dramatic",
+      "Serious"
+    ],
+    "tags": [
+      "Powerful Deep",
+      "Action Trailer",
+      "Warrior",
+      "Grit"
+    ]
+  },
+  {
+    "id": "male-harlan-serious-narrator",
+    "name": "Harlan (Serious Male Narrator)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Cold Case Investigator)",
+    "description": "Sober, clinical, and compelling deep narrator for true crime mysteries, investigative journalism, and legal exposés.",
+    "sampleText": "At 11:42 PM, the vehicle vanished from camera radar. What happened in those seven missing minutes remains unknown.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "pqHfZKP75CvOlQylNhV4",
+    "recommendedStyles": [
+      "Serious",
+      "Suspenseful",
+      "Documentary"
+    ],
+    "tags": [
+      "True Crime",
+      "Investigative",
+      "Serious Narrator"
+    ]
+  },
+  {
+    "id": "male-atticus-deep-doc",
+    "name": "Atticus (Deep Documentary Narrator)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Scientific Documentary)",
+    "description": "Deep, resonant, and intellectually engaging voice tailored for astrophysics documentaries, archaeological explorations, and space sagas.",
+    "sampleText": "Fourteen billion years ago, our universe ignited from a singular point of infinite density into cosmic expanse.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Documentary",
+      "Calm",
+      "Dramatic"
+    ],
+    "tags": [
+      "Space Documentary",
+      "Astrophysics",
+      "Deep Voice"
+    ]
+  },
+  {
+    "id": "male-gregory-pro-deep",
+    "name": "Gregory (Professional Deep Male)",
+    "gender": "male",
+    "category": "Professional Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Deep Broadcast Studio)",
+    "description": "Ultra-clean, deep, studio-mastered American male voice for commercial voiceovers, national car commercials, and brand anthems.",
+    "sampleText": "Engineered without compromise. Designed for those who refuse to follow ordinary paths.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "Brand Voice",
+      "Commercial",
+      "Deep Studio"
+    ]
+  },
+  {
+    "id": "male-rhys-celtic-deep",
+    "name": "Rhys (Celtic Baritone)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "Irish / Scottish (Mythic Highlands)",
+    "description": "Rich, atmospheric Celtic baritone with earthy cadence for medieval fantasy, folklore, and bardic tales.",
+    "sampleText": "The ancient stone circles still hum when the midwinter winds howl down from the misty highland crests.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "wViXBPUzp2ZZixvnxN2x",
+    "recommendedStyles": [
+      "Storytelling",
+      "Dramatic",
+      "Calm"
+    ],
+    "tags": [
+      "Celtic",
+      "Highlands",
+      "Mythology",
+      "Baritone"
+    ]
+  },
+  {
+    "id": "male-balthazar-apocalypse",
+    "name": "Balthazar (Dark Fantasy Deep)",
+    "gender": "male",
+    "category": "Ultra Deep Bass Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Netherworld Bass)",
+    "description": "Subterranean bass frequencies with theatrical villainous gravitas. Ideal for dark fantasy overlords, horror trailers, and monster intros.",
+    "sampleText": "You believed the curse was broken, mortal. You merely welcomed it into your very soul.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Dramatic",
+      "Suspenseful"
+    ],
+    "tags": [
+      "Dark Fantasy",
+      "Horror",
+      "Villain Voice",
+      "Ultra Deep Bass"
+    ]
+  },
+  {
+    "id": "male-edward-victorian",
+    "name": "Edward (Victorian Baritone)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Victorian Aristocrat)",
+    "description": "Aristocratic, slow-paced British baritone suited for classical literature, Sherlock Holmes mysteries, and period drama adaptations.",
+    "sampleText": "It was a cold, foggy evening in Baker Street when the peculiar telegram was delivered to our door.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Storytelling",
+      "Suspenseful",
+      "Calm"
+    ],
+    "tags": [
+      "Victorian",
+      "Sherlock Holmes",
+      "Classic Literature",
+      "Baritone"
+    ]
+  },
+  {
+    "id": "male-dax-cyber-deep",
+    "name": "Dax (Cyberpunk Deep Baritone)",
+    "gender": "male",
+    "category": "Cinematic Deep Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Neon Dystopia)",
+    "description": "Gritty, futuristic deep voice with cybernetic undertones for cyberpunk games, tech noir fiction, and hacker chronicles.",
+    "sampleText": "In the megacity of 2088, your thoughts are the only commodity the corporations have not yet privatized.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "recommendedStyles": [
+      "Suspenseful",
+      "Dramatic",
+      "Serious"
+    ],
+    "tags": [
+      "Cyberpunk",
+      "Futuristic",
+      "Tech Noir",
+      "Deep Voice"
+    ]
+  },
+  {
+    "id": "male-oscar-warm-bass",
+    "name": "Oscar (Warm Bass Storyteller)",
+    "gender": "male",
+    "category": "Deep Bass Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Fireside Warmth)",
+    "description": "Deep yet wonderfully friendly bass voice that feels like sitting by a cozy fireplace listening to timeless American legends.",
+    "sampleText": "Out in the quiet pines, where the river meets the mountain, life moves to the steady heartbeat of the woods.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Friendly"
+    ],
+    "tags": [
+      "Fireside",
+      "Warm Bass",
+      "Bedtime",
+      "Nature"
+    ]
+  },
+  {
+    "id": "male-alec-deep-presenter",
+    "name": "Alec (Deep Presenter Male)",
+    "gender": "male",
+    "category": "Professional Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Keynote Gravitas)",
+    "description": "Polished, authoritative male baritone for financial earnings calls, global symposiums, and institutional presentations.",
+    "sampleText": "Our third-quarter metrics demonstrate sustainable growth across every international sector.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "bVMeCyTHy58xNoL34h3p",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "Corporate",
+      "Keynote",
+      "Financial",
+      "Deep Baritone"
+    ]
+  },
+  {
+    "id": "male-adam-eleven",
+    "name": "Adam (Motivational Speaker)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Deep Warm Baritone)",
+    "description": "Iconic deep, confident male voice inspired by flagship narration voices. Unrivaled for YouTube video essays, self-discipline, and motivational shorts.",
+    "sampleText": "Discipline is the bridge between goals and accomplishment. When passion fades, relentless commitment carries you through.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Professional",
+      "Serious",
+      "Storytelling"
+    ],
+    "tags": [
+      "ElevenLabs Style",
+      "Motivational",
+      "Baritone",
+      "YouTube Essays"
+    ]
+  },
+  {
+    "id": "male-tyler-energy",
+    "name": "Tyler (High-Energy Coach)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Athletic Drive)",
+    "description": "Pumping, motivational gym coach voice designed for workout soundtracks, athletic brand ads, and morning hype videos.",
+    "sampleText": "Don’t count the days; make the days count! Push through the pain today so you can own the victory tomorrow!",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "VR6AewLTigWG4xSOukaG",
+    "recommendedStyles": [
+      "Excited",
+      "Happy"
+    ],
+    "tags": [
+      "High Energy",
+      "Athletic Coach",
+      "Workout Hype",
+      "Motivational"
+    ]
+  },
+  {
+    "id": "male-brandon-leadership",
+    "name": "Brandon (Leadership Orator)",
+    "gender": "male",
+    "category": "Deep Motivational Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Keynote Gravitas)",
+    "description": "Inspiring keynote speaker voice for TED-style presentations, visionary startup pitches, and life philosophy talks.",
+    "sampleText": "True leadership is not about wielding power over others; it is about empowering everyone around you to achieve greatness.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Professional",
+      "Storytelling",
+      "Emotional"
+    ],
+    "tags": [
+      "TED Speaker",
+      "Leadership",
+      "Inspirational",
+      "Visionary"
+    ]
+  },
+  {
+    "id": "male-connor-speech-narrator",
+    "name": "Connor (Cinematic Speech Narrator)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Dramatic Crescendo)",
+    "description": "Passionate and cinematic orator who builds momentum from a quiet whisper into an overwhelming roar of inspiration.",
+    "sampleText": "They said it was impossible. They said the mountain was too steep. But here we stand, at the edge of sunrise.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Dramatic",
+      "Excited",
+      "Storytelling"
+    ],
+    "tags": [
+      "Cinematic Speech",
+      "Crescendo",
+      "High Emotion",
+      "Inspirational"
+    ]
+  },
+  {
+    "id": "male-damon-deep-inspirational",
+    "name": "Damon (Deep Inspirational Voice)",
+    "gender": "male",
+    "category": "Deep Motivational Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Soulful Baritone)",
+    "description": "Soul-stirring, deep inspirational male voice that connects on a deeply human level. Perfect for overcoming adversity narratives.",
+    "sampleText": "Your greatest scars are not signs of weakness; they are proof that the fire within you burned brighter than the storm.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Emotional",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Soulful",
+      "Overcoming Adversity",
+      "Deep Motivational"
+    ]
+  },
+  {
+    "id": "male-hunter-confident-speaker",
+    "name": "Hunter (Confident Speaker)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Silicon Valley Visionary)",
+    "description": "Sharp, charismatic, and relentlessly confident voice for launch events, product unveilings, and bold tech manifestos.",
+    "sampleText": "We didn’t just rethink the technology. We completely reimagined what was humanly possible.",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Professional",
+      "Excited",
+      "Happy"
+    ],
+    "tags": [
+      "Tech Launch",
+      "Charisma",
+      "Confident Speaker"
+    ]
+  },
+  {
+    "id": "male-malik-strong-leader",
+    "name": "Malik (Strong Leadership Voice)",
+    "gender": "male",
+    "category": "Strong Authoritative Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Executive Moral Authority)",
+    "description": "Voice of moral courage, steadfast direction, and team mobilization for town halls, change management, and rallying speeches.",
+    "sampleText": "When adversity strikes, character is revealed. We stand united, determined, and forward-looking.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "bVMeCyTHy58xNoL34h3p",
+    "recommendedStyles": [
+      "Professional",
+      "Serious",
+      "Dramatic"
+    ],
+    "tags": [
+      "Leadership",
+      "Town Hall",
+      "Moral Authority"
+    ]
+  },
+  {
+    "id": "male-jordan-grindset",
+    "name": "Jordan (Daily Grind & Focus)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Direct & Unapologetic)",
+    "description": "Fast-paced, direct motivational speech for early morning alarm audio, daily workout routines, and productivity hacks.",
+    "sampleText": "Wake up before the competition. Put in the reps when nobody is clapping for you. That is how champions are forged.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "VR6AewLTigWG4xSOukaG",
+    "recommendedStyles": [
+      "Excited",
+      "Serious"
+    ],
+    "tags": [
+      "Productivity",
+      "Grindset",
+      "Morning Focus"
+    ]
+  },
+  {
+    "id": "male-raymond-wisdom-mentor",
+    "name": "Raymond (Wise Leadership Mentor)",
+    "gender": "male",
+    "category": "Deep Motivational Narrator",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Thoughtful Sage)",
+    "description": "Gentle yet profound leadership mentor voice for stoic philosophy audiobooks, life reflections, and executive coaching.",
+    "sampleText": "You have power over your mind, not outside events. Realize this, and you will find unstoppable strength.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling",
+      "Serious"
+    ],
+    "tags": [
+      "Stoicism",
+      "Philosophy",
+      "Wise Mentor"
+    ]
+  },
+  {
+    "id": "male-troy-emotional-motivation",
+    "name": "Troy (Emotional Motivational Voice)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Heartfelt Empathy)",
+    "description": "Vulnerable yet powerful motivational voice that validates pain and guides listeners toward healing and purpose.",
+    "sampleText": "It is okay to feel exhausted. Rest, catch your breath, but never forget why you began this climb.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Emotional",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Emotional Motivation",
+      "Healing",
+      "Purpose"
+    ]
+  },
+  {
+    "id": "male-zack-energetic-male",
+    "name": "Zack (Energetic Motivational Male)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Youth Catalyst)",
+    "description": "High-octane, youth-oriented motivational speaker for students, competitive gamers, and athletic bootcamps.",
+    "sampleText": "Break through your limits! Let your energy become the spark that ignites the whole stadium!",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Excited",
+      "Happy"
+    ],
+    "tags": [
+      "Youth Catalyst",
+      "High Energy",
+      "Bootcamp"
+    ]
+  },
+  {
+    "id": "male-solomon-epic-speech",
+    "name": "Solomon (Epic Speech Narrator)",
+    "gender": "male",
+    "category": "Cinematic Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Monumental Pacing)",
+    "description": "Epic historical orator voice suited for graduation commencement speeches, monumental declarations, and anthem videos.",
+    "sampleText": "History is not written by the faint of heart; it belongs to those bold enough to author their own destiny.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Dramatic",
+      "Storytelling",
+      "Professional"
+    ],
+    "tags": [
+      "Commencement",
+      "Monumental",
+      "Epic Speech"
+    ]
+  },
+  {
+    "id": "male-brody-adventure-leader",
+    "name": "Brody (Expedition Leader)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (AU)",
+    "languageCode": "en-AU",
+    "accent": "Australian (Rugged Determination)",
+    "description": "Rugged, optimistic Australian voice that leads crews through wild expeditions, survival challenges, and extreme sports.",
+    "sampleText": "Look at that horizon! Pack your gear and let’s tackle the wild backcountry together!",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "IKne3meq5aSn9XLyUdCD",
+    "recommendedStyles": [
+      "Excited",
+      "Friendly",
+      "Storytelling"
+    ],
+    "tags": [
+      "Australian",
+      "Expedition",
+      "Wilderness",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "male-mateo-bilingual-leader",
+    "name": "Mateo (Inspirational Leader)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Warm Latin Influence)",
+    "description": "Warm, charismatic leadership voice with subtle Latin rhythm, inspiring community unity and passionate teamwork.",
+    "sampleText": "Together we are unstoppable. When every family and every neighbor lifts together, mountains move.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Emotional",
+      "Storytelling",
+      "Happy"
+    ],
+    "tags": [
+      "Community",
+      "Unity",
+      "Latin Rhythm",
+      "Charisma"
+    ]
+  },
+  {
+    "id": "male-arthur-audiobook",
+    "name": "Arthur (Audiobook Master)",
+    "gender": "male",
+    "category": "Audiobook Narrator",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (West End Pacing)",
+    "description": "Immersive, nuanced British narrator skilled in distinct character voices, rhythmic prose, and sustained chapter readings.",
+    "sampleText": "Chapter Three: The shadows lengthened across the cobblestone square as the antique carriage drew to a halt.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Dramatic"
+    ],
+    "tags": [
+      "Audiobook",
+      "British Narrator",
+      "Character Acting"
+    ]
+  },
+  {
+    "id": "male-owen-conversational",
+    "name": "Owen (Natural Conversational Male)",
+    "gender": "male",
+    "category": "Friendly Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Friendly Neighbor)",
+    "description": "Warm, relatable, unscripted-sounding American voice. Sounds like a close friend talking over coffee.",
+    "sampleText": "Honestly, I was pretty skeptical at first too, but once you try it out, you realize what a difference it makes.",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "flq6f7yk4E4fJM5XTYuZ",
+    "recommendedStyles": [
+      "Friendly",
+      "Happy"
+    ],
+    "tags": [
+      "Conversational",
+      "Authentic",
+      "Relatable",
+      "Podcast"
+    ]
+  },
+  {
+    "id": "male-lawrence-mature-pro",
+    "name": "Lawrence (Mature Professional Male)",
+    "gender": "male",
+    "category": "Professional Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (BBC World Service)",
+    "description": "Measured, dignified, and highly articulate broadcaster voice for investigative journalism and global policy analysis.",
+    "sampleText": "Reporting live from Geneva: diplomatic delegations have concluded the second round of high-level climate discussions.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Professional",
+      "Serious",
+      "Documentary"
+    ],
+    "tags": [
+      "BBC Broadcaster",
+      "Dignified",
+      "World Service"
+    ]
+  },
+  {
+    "id": "male-ethan-friendly-narrator",
+    "name": "Ethan (Warm & Friendly Male)",
+    "gender": "male",
+    "category": "Friendly Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Midwestern Warmth)",
+    "description": "Gentle, clear, and reassuring male voice for educational courses, employee onboarding, and explainer animations.",
+    "sampleText": "Welcome to module one! Today we will take a straightforward look at how our platform simplifies your workflow.",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "g5CIjZEefAph4nQFvHAz",
+    "recommendedStyles": [
+      "Friendly",
+      "Professional",
+      "Happy"
+    ],
+    "tags": [
+      "Explainer",
+      "Onboarding",
+      "Friendly Male"
+    ]
+  },
+  {
+    "id": "male-simon-confident-presenter",
+    "name": "Simon (Confident Presenter Male)",
+    "gender": "male",
+    "category": "Professional Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Corporate Media)",
+    "description": "Slick, confident modern British voice for annual reports, investor showcases, and high-tech product overviews.",
+    "sampleText": "Our innovative architecture enables real-time throughput without compromising latency or system resilience.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "bVMeCyTHy58xNoL34h3p",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "Corporate Media",
+      "Investor Report",
+      "Tech Showcase"
+    ]
+  },
+  {
+    "id": "male-wesley-pro-doc",
+    "name": "Wesley (Professional Documentary)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (PBS Science Documentarian)",
+    "description": "Inquisitive, intelligent, and balanced narration for historical retrospectives, technological breakthroughs, and engineering feats.",
+    "sampleText": "When the Hoover Dam was completed two years ahead of schedule, it stood as a monumental triumph of modern engineering.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "pqHfZKP75CvOlQylNhV4",
+    "recommendedStyles": [
+      "Documentary",
+      "Professional",
+      "Calm"
+    ],
+    "tags": [
+      "PBS Documentarian",
+      "Engineering",
+      "History"
+    ]
+  },
+  {
+    "id": "male-caleb-emotional-story",
+    "name": "Caleb (Emotional Storytelling Male)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Heartfelt Drama)",
+    "description": "Tender, emotionally expressive narrator capable of capturing vulnerability, heartbreak, and triumph in dramatic novels.",
+    "sampleText": "He held the weathered photograph in trembling hands, remembering the promise he made thirty years ago.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Emotional",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Emotional Drama",
+      "Vulnerable",
+      "Memoir"
+    ]
+  },
+  {
+    "id": "male-finn-irish-story",
+    "name": "Finn (Natural Irish Storyteller)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "Irish (Dublin Folklore Melody)",
+    "description": "Charming, rhythmic Irish male voice infused with lyrical pacing, marvelous for fantasy audiobooks and campfire tales.",
+    "sampleText": "Now, if you listen closely to the whistle of the sea wind, you might just hear the old fisherman’s ballad.",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "wViXBPUzp2ZZixvnxN2x",
+    "recommendedStyles": [
+      "Storytelling",
+      "Friendly",
+      "Calm"
+    ],
+    "tags": [
+      "Irish Folklore",
+      "Lyrical",
+      "Campfire Tale"
+    ]
+  },
+  {
+    "id": "male-derek-suspense-narrator",
+    "name": "Derek (Suspense Story Narrator)",
+    "gender": "male",
+    "category": "Cinematic Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Psychological Suspense)",
+    "description": "Tense, gripping delivery that keeps listeners on the edge of their seats during thrillers, spy fiction, and locked-room mysteries.",
+    "sampleText": "The sound came from the attic again—slow, rhythmic footfalls directly above his bedroom ceiling.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "recommendedStyles": [
+      "Suspenseful",
+      "Dramatic"
+    ],
+    "tags": [
+      "Psychological Thriller",
+      "Tense",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "male-garrett-dramatic-story",
+    "name": "Garrett (Dramatic Story Narrator)",
+    "gender": "male",
+    "category": "Dramatic Voice",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Theatrical Power)",
+    "description": "Robust and dynamic dramatic voice for high fantasy battles, legendary sagas, and epic character conflicts.",
+    "sampleText": "The dragon unfurled its blackened wings, blotting out the midday sun as fire rained upon the citadel.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "High Fantasy",
+      "Dragons",
+      "Epic Story"
+    ]
+  },
+  {
+    "id": "male-mason-news-anchor",
+    "name": "Mason (Serious News Presenter)",
+    "gender": "male",
+    "category": "News Presenter",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Network News Standard)",
+    "description": "Steady, objective, and urgent news anchor voice for breaking bulletins, financial market updates, and political broadcasts.",
+    "sampleText": "Good evening. Markets closed at record highs today following unprecedented consumer spending figures.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "bVMeCyTHy58xNoL34h3p",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "News Anchor",
+      "Objective",
+      "Broadcast Standard"
+    ]
+  },
+  {
+    "id": "male-tobias-calm-zen",
+    "name": "Tobias (Calm and Relaxed Male)",
+    "gender": "male",
+    "category": "Calm Voice",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Tranquil Mind)",
+    "description": "Ultra-soothing, tranquil male narrator for guided breathing exercises, sleep stories, and ambient audiobooks.",
+    "sampleText": "Allow your thoughts to settle like still water in a forest pool. There is nowhere else you need to be.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Mindfulness",
+      "Sleep Audio",
+      "Calm Voice"
+    ]
+  },
+  {
+    "id": "male-jasper-young-tech",
+    "name": "Jasper (Energetic Young Male)",
+    "gender": "male",
+    "category": "Young Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Gen-Z Tech Creator)",
+    "description": "Upbeat, contemporary young male creator voice for viral reels, app reviews, and gaming gameplay voiceovers.",
+    "sampleText": "What’s going on everyone! Today we are testing out the wildest new gaming setup you’ve ever seen.",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Excited",
+      "Happy",
+      "Friendly"
+    ],
+    "tags": [
+      "YouTube Tech",
+      "Gaming",
+      "Young Male"
+    ]
+  },
+  {
+    "id": "male-miles-jazz-storyteller",
+    "name": "Miles (Late Night Jazz Narrator)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Late Night Radio)",
+    "description": "Smooth, smoky, late-night radio DJ cadence. Intimate, captivating, and nostalgic for urban night audio.",
+    "sampleText": "The clock just hit midnight in the city that never stops running. Lean back and let the music take over.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Late Night Radio",
+      "Smoky",
+      "Jazz Host"
+    ]
+  },
+  {
+    "id": "en-ca-liam",
+    "name": "Liam (Canadian Storyteller)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "English (Canada)",
+    "languageCode": "en-CA",
+    "accent": "Canadian (Ontario / Pacific Northwest Natural)",
+    "description": "Authentic Canadian English male narrator with a warm, conversational, and natural cadence for stories and documentaries.",
+    "sampleText": "Across the vast expanse of the Canadian Rockies, the northern lights cast an ethereal emerald glow over silent lakes.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Storytelling",
+      "Documentary",
+      "Calm",
+      "Professional"
+    ],
+    "tags": [
+      "Canadian English",
+      "Documentary",
+      "Warm Male",
+      "Nature Narrator"
+    ]
+  },
+  {
+    "id": "en-ca-chloe",
+    "name": "Chloe (Canadian Professional)",
+    "gender": "female",
+    "category": "Professional Female",
+    "language": "English (Canada)",
+    "languageCode": "en-CA",
+    "accent": "Canadian (Standard Canadian English)",
+    "description": "Clear, engaging Canadian female voice with articulate diction, great for news, podcasts, audiobooks, and corporate media.",
+    "sampleText": "Welcome to today’s broadcast from Vancouver. Here are the highlights shaping our communities today.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Professional",
+      "Friendly",
+      "Documentary"
+    ],
+    "tags": [
+      "Canadian Female",
+      "Audiobook",
+      "Podcast",
+      "Clear Tone"
+    ]
+  },
+  {
+    "id": "en-ca-noah",
+    "name": "Noah (Pacific Rockies Deep)",
+    "gender": "male",
+    "category": "Deep Male",
+    "language": "English (Canada)",
+    "languageCode": "en-CA",
+    "accent": "Canadian (British Columbia Woodsman)",
+    "description": "Deep, earthy Canadian male voice for wilderness adventures, outdoor gear branding, and environmental narrations.",
+    "sampleText": "The coastal rainforest of British Columbia breathes with ancient cedar and silent rivers flowing toward the Pacific.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Calm",
+      "Documentary",
+      "Storytelling"
+    ],
+    "tags": [
+      "Wilderness",
+      "Canadian Rockies",
+      "Deep Voice",
+      "Nature"
+    ]
+  },
+  {
+    "id": "en-ca-sophie",
+    "name": "Sophie (Maritime Warmth)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "English (Canada)",
+    "languageCode": "en-CA",
+    "accent": "Canadian (Atlantic Maritimes)",
+    "description": "Heartwarming Nova Scotian female voice, capturing coastal charm, folklore stories, and welcoming tourism narrations.",
+    "sampleText": "The fishing schooners rested in the quiet harbor as morning fog gently lifted over the Atlantic cliffs.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "jsCqWAovK2LkecY7zXl4",
+    "recommendedStyles": [
+      "Storytelling",
+      "Friendly",
+      "Calm"
+    ],
+    "tags": [
+      "Atlantic Maritimes",
+      "Canadian Female",
+      "Coastal Charm"
+    ]
+  },
+  {
+    "id": "en-ca-ethan-prairie",
+    "name": "Ethan (Prairie Baritone)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "English (Canada)",
+    "languageCode": "en-CA",
+    "accent": "Canadian (Calgary Prairies)",
+    "description": "Honest, grounded Canadian baritone voice for agriculture documentaries, construction videos, and prairie historical essays.",
+    "sampleText": "Under the endless prairie sky, golden wheat fields stretch as far as the eye can see.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Documentary",
+      "Calm",
+      "Professional"
+    ],
+    "tags": [
+      "Canadian Prairies",
+      "Calgary",
+      "Honest Baritone"
+    ]
+  },
+  {
+    "id": "fr-ca-marc",
+    "name": "Marc (Québécois Documentaire)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "accent": "Canadian French (Québec Authentic)",
+    "description": "Authentic Québécois male voice with rich timbre and natural inflection, designed for French Canadian narrations and films.",
+    "sampleText": "Le fleuve Saint-Laurent murmure les récits de nos ancêtres, sous un ciel d’hiver éclatant et majestueux.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Documentary",
+      "Storytelling",
+      "Serious",
+      "Dramatic"
+    ],
+    "tags": [
+      "Canadian French",
+      "Québécois",
+      "Documentary",
+      "Film Voice"
+    ]
+  },
+  {
+    "id": "fr-ca-elodie",
+    "name": "Élodie (Montréalaise Conviviale)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "accent": "Canadian French (Montréal Melody)",
+    "description": "Expressive and warm Québécoise female storyteller, perfect for audiobooks, educational series, and commercial spots.",
+    "sampleText": "Prenez le temps d’écouter le vent qui souffle dans les érables dorés de nos forêts boréales.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Storytelling",
+      "Emotional",
+      "Calm",
+      "Friendly"
+    ],
+    "tags": [
+      "Canadian French Female",
+      "Montréal",
+      "Warm Tone",
+      "Audiobook"
+    ]
+  },
+  {
+    "id": "fr-ca-luc",
+    "name": "Luc (Laurentides Bariton)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "accent": "Canadian French (Laurentian Baritone)",
+    "description": "Warm, mature French Canadian baritone for historical chronicles, literary readings, and heritage documentaries.",
+    "sampleText": "Au cœur des Laurentides, chaque sentier raconte l’épopée des bâtisseurs de notre belle province.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Documentary",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Québec Heritage",
+      "Laurentides",
+      "Baritone"
+    ]
+  },
+  {
+    "id": "fr-ca-genevieve",
+    "name": "Geneviève (Radio-Canada Voix)",
+    "gender": "female",
+    "category": "Professional Female",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "accent": "Canadian French (Broadcast Radio-Canada)",
+    "description": "Polished, authoritative French Canadian broadcaster delivery for journalism, governmental briefings, and educational documentaries.",
+    "sampleText": "Ici Geneviève en direct de Québec. Les pourparlers environnementaux s’ouvrent ce matin avec optimisme.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Professional",
+      "Documentary"
+    ],
+    "tags": [
+      "Radio-Canada",
+      "Broadcast",
+      "Journalism",
+      "Québec"
+    ]
+  },
+  {
+    "id": "fr-ca-mathieu",
+    "name": "Mathieu (Gaspésie Poétique)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "accent": "Canadian French (Maritime Gaspésien)",
+    "description": "Hearty, poetic maritime voice from the Gaspé peninsula for regional novels, maritime songs, and nature documentaries.",
+    "sampleText": "Devant le Rocher Percé, le cri des fous de Bassan s’accorde avec la rumeur de la grande mer bleue.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Emotional"
+    ],
+    "tags": [
+      "Gaspésie",
+      "Maritime",
+      "Rocher Percé",
+      "French Canada"
+    ]
+  },
+  {
+    "id": "hindi-aarav-cinematic",
+    "name": "Aarav (आरव - सिनेमाई रावी)",
+    "gender": "male",
+    "category": "Cinematic Narrator",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Standard Hindi / Cinematic)",
+    "description": "Rich, cinematic Indian Hindi voice with high clarity, ideal for epic YouTube sagas, mythology, and compelling narrations.",
+    "sampleText": "सदियों पुरानी इस कथा में छुपा है एक ऐसा रहस्य, जिसने समय की धारा को भी विचलित कर दिया।",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Dramatic",
+      "Storytelling",
+      "Suspenseful"
+    ],
+    "tags": [
+      "Hindi Cinematic",
+      "Mythology",
+      "YouTube Saga"
+    ]
+  },
+  {
+    "id": "hindi-kabir-deep",
+    "name": "Kabir (कबीर - गहरा बैरीटोन)",
+    "gender": "male",
+    "category": "Deep Bass Male",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Deep Resonance Baritone)",
+    "description": "A deep, baritone Hindi voice for historical documentaries, thought leadership, podcasts, and motivation.",
+    "sampleText": "सफलता का मार्ग कभी भी सीधा नहीं होता, इसमें धैर्य और निरंतर प्रयास की आवश्यकता होती है।",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Serious",
+      "Documentary",
+      "Professional"
+    ],
+    "tags": [
+      "Deep Baritone",
+      "Hindi Podcasts",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "hindi-vikram-motivational",
+    "name": "Vikram (विक्रम - प्रेरणादायक वक्ता)",
+    "gender": "male",
+    "category": "Motivational Male",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Powerful Hindi Orator)",
+    "description": "Inspiring, energetic Hindi motivational speaker voice for self-growth videos, business motivation, and speeches.",
+    "sampleText": "जब तक आप खुद पर विश्वास नहीं करेंगे, तब तक दुनिया भी आप पर भरोसा नहीं करेगी। उठो और इतिहास रचो!",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "VR6AewLTigWG4xSOukaG",
+    "recommendedStyles": [
+      "Excited",
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Hindi Motivational",
+      "Inspirational",
+      "Keynote"
+    ]
+  },
+  {
+    "id": "hindi-ananya-story",
+    "name": "Ananya (अनन्या - कथावाचिका)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Warm & Expressive)",
+    "description": "Expressive and engaging female Hindi narrator, skilled at emotional pacing, folk tales, and educational videos.",
+    "sampleText": "जब सूरज की पहली किरणें हिमालय की चोटियों को चूमती हैं, तो प्रकृति का अनोखा जादू बिखर जाता है।",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Storytelling",
+      "Emotional",
+      "Happy"
+    ],
+    "tags": [
+      "Hindi Storyteller",
+      "Warm Female",
+      "Folk Tales"
+    ]
+  },
+  {
+    "id": "hindi-priya-friendly",
+    "name": "Priya (प्रिया - सहज बातचीत)",
+    "gender": "female",
+    "category": "Friendly Female",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Contemporary Urban)",
+    "description": "Warm, pleasant, and accessible female voice for customer presentations, lifestyle content, and instructional guides.",
+    "sampleText": "नमस्ते! आज हम जानेंगे कि कैसे आप अपने दैनिक जीवन में सकारात्मक बदलाव ला सकते हैं।",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Friendly",
+      "Professional",
+      "Happy"
+    ],
+    "tags": [
+      "Friendly Hindi",
+      "Lifestyle",
+      "Tutorials"
+    ]
+  },
+  {
+    "id": "hindi-meera-devotional",
+    "name": "Meera (मीरा - शांत और भक्तिमय)",
+    "gender": "female",
+    "category": "Audiobook Narrator",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Devotional & Poetic)",
+    "description": "Sweet, serene female Hindi voice for spiritual discourses, meditation, and classical Indian poetry.",
+    "sampleText": "मन की शांति ही आत्मा की वास्तविक शक्ति है, इसे बाहरी कोلاहल से दूर एकांत में खोजें।",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Serene Hindi",
+      "Spiritual",
+      "Meditation"
+    ]
+  },
+  {
+    "id": "hindi-arjun-young",
+    "name": "Arjun (अर्जुन - युवा जोश)",
+    "gender": "male",
+    "category": "Young Male",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Delhi / Youth Creator)",
+    "description": "Dynamic young Indian male voice tailored for tech tutorials, gaming streams, and campus vlogs in Hindi.",
+    "sampleText": "हे दोस्तों! आज के इस एपिसोड में हम देखने वाले हैं टॉप फाइव नए गैजेट्स जो आपके होश उड़ा देंगे।",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Excited",
+      "Friendly",
+      "Happy"
+    ],
+    "tags": [
+      "Hindi Gaming",
+      "Youth",
+      "Tech Creator"
+    ]
+  },
+  {
+    "id": "hindi-sunita-pro",
+    "name": "Sunita (सुनीता - समाचार वाचिका)",
+    "gender": "female",
+    "category": "Professional Female",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (National Doordarshan Standard)",
+    "description": "Impeccable, clear, and dignified Hindi news anchor delivery for official documentaries and educational broadcasts.",
+    "sampleText": "नमस्कार! मुख्य समाचारों के साथ मैं हूँ सुनीता। देश की आर्थिक प्रगति पर आज विशेष चर्चा प्रस्तुत है।",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "pMsXgVXv3BLzUgSXRplE",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "Hindi News",
+      "Official",
+      "Clear Diction"
+    ]
+  },
+  {
+    "id": "hindi-rohit-documentary",
+    "name": "Rohit (रोहित - ऐतिहासिक वृत्तचित्र)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Historical Epic)",
+    "description": "Weighty, measured Hindi narrator for historical documentaries on kings, monuments, and freedom struggles.",
+    "sampleText": "लाल किले की इन प्राचीन दीवारों ने भारतीय उपमहाद्वीप के अनगिनत साम्राज्यों का उत्थान और पतन देखा है।",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Documentary",
+      "Dramatic",
+      "Serious"
+    ],
+    "tags": [
+      "Hindi History",
+      "Monuments",
+      "Forts"
+    ]
+  },
+  {
+    "id": "hindi-kavita-poetry",
+    "name": "Kavita (कविता - काव्य पाठ)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Shuddh Hindi / Poetic Flow)",
+    "description": "Melodic and emotional recitation voice for Harivansh Rai Bachchan, Dinkar, and classic Hindi literature.",
+    "sampleText": "लहरों से डर कर नौका पार नहीं होती, कोशिश करने वालों की कभी हार नहीं होती।",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "jsCqWAovK2LkecY7zXl4",
+    "recommendedStyles": [
+      "Emotional",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Kavita Recitation",
+      "Hindi Poetry",
+      "Inspirational"
+    ]
+  },
+  {
+    "id": "hindi-dev-bass-trailer",
+    "name": "Dev (देव - महागाथा ट्रेलर)",
+    "gender": "male",
+    "category": "Ultra Deep Bass Male",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Epic Bollywood Trailer)",
+    "description": "Thunderous deep bass Hindi narrator for mythological epics, movie trailers, and battlefield chronicles.",
+    "sampleText": "जब अधर्म की सीमाएं टूटेंगी, तब न्याय का चक्रव्यूह फिर से रचा जाएगा।",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Dramatic",
+      "Serious"
+    ],
+    "tags": [
+      "Bollywood Trailer",
+      "Mythological Epic",
+      "Ultra Deep Bass"
+    ]
+  },
+  {
+    "id": "hindi-neha-bedtime",
+    "name": "Neha (नेहा - बच्चों की कहानियाँ)",
+    "gender": "female",
+    "category": "Soft Female",
+    "language": "Hindi",
+    "languageCode": "hi-IN",
+    "accent": "Indian (Gentle Storybook)",
+    "description": "Warm, soft bedtime voice for Panchatantra tales, grandmother fables, and lullabies in Hindi.",
+    "sampleText": "एक घने जंगल में एक नन्हा खरगोश रहता था, जिसे नए दोस्त बनाना बहुत पसंद था।",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "piTKgcLEGmPE4e6mEKli",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Panchatantra",
+      "Children Stories",
+      "Soft Hindi"
+    ]
+  },
+  {
+    "id": "pa-sultan-punjabi-male",
+    "name": "Sultan (سلطان / ਸੁਲਤਾਨ - ਪੰਜਾਬੀ)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "Punjabi",
+    "languageCode": "pa-PK",
+    "accent": "Pakistani / Indian Punjabi (Majha Hearty)",
+    "description": "Hearty, resonant, and charismatic Punjabi male voice for Heer Ranjha folklore, rural stories, and cultural programs.",
+    "sampleText": "ਇੱਕ ਵਾਰ ਦੀ ਗੱਲ ਏ ਕਿ ਪਿੰਡ ਦੀ ਸੱਥ ਵਿੱਚ ਸਾਰੇ ਬਜ਼ੁਰਗ ਬੈਠ ਕੇ ਪੁਰਾਣੀਆਂ ਗੱਲਾਂ ਯਾਦ ਕਰ ਰਹੇ ਸਨ।",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Storytelling",
+      "Dramatic",
+      "Happy"
+    ],
+    "tags": [
+      "Punjabi",
+      "Majha",
+      "Heer Ranjha",
+      "Folk Story"
+    ]
+  },
+  {
+    "id": "pa-harpreet-female",
+    "name": "Harpreet (ਹਰਪ੍ਰੀਤ - ਸੁਰੀਲੀ ਪੰਜਾਬੀ)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Punjabi",
+    "languageCode": "pa-PK",
+    "accent": "Punjabi (Warm Malwa Tone)",
+    "description": "Lyrical, vibrant Punjabi female narrator for folklore, family drama audio, and festival announcements.",
+    "sampleText": "ਸਾਡੇ ਪੰਜਾਬ ਦੇ ਖੇਤਾਂ ਵਿੱਚ ਜਦੋਂ ਸਰ੍ਹੋਂ ਫੁੱਲਦੀ ਏ, ਤਾਂ ਸਾਰੀ ਧਰਤੀ ਸੋਨੇ ਵਾਂਗ ਚਮਕਣ ਲੱਗਦੀ ਏ।",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Storytelling",
+      "Happy",
+      "Emotional"
+    ],
+    "tags": [
+      "Punjabi Female",
+      "Folk",
+      "Festivals"
+    ]
+  },
+  {
+    "id": "ps-khan-pashto-male",
+    "name": "Khan (خان - پښتو درنه غږ)",
+    "gender": "male",
+    "category": "Strong Authoritative Male",
+    "language": "Pashto",
+    "languageCode": "ps-AF",
+    "accent": "Pakistani / Afghan (Kandahar & Peshawar Pashto)",
+    "description": "Dignified, deep, and honorable Pashto male voice for traditional Pashtunwali stories, historical narratives, and tribal lore.",
+    "sampleText": "د پښتو ادب او تاریخ په پاڼو کې غیرت او مېړانه تل د ژوند تر ټولو لوړ ارزښت ګڼل شوی دی.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Serious",
+      "Storytelling",
+      "Dramatic"
+    ],
+    "tags": [
+      "Pashto",
+      "Pashtunwali",
+      "Deep Voice",
+      "Peshawar"
+    ]
+  },
+  {
+    "id": "ps-zarmina-female",
+    "name": "Zarmina (زرمنه - پښتنه مېرمن)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Pashto",
+    "languageCode": "ps-AF",
+    "accent": "Pashto (Gentle Khyber Melodic)",
+    "description": "Gentle, expressive Pashto female voice for classic Tappa recitations, children education, and folk tales.",
+    "sampleText": "د شپې په چوپتیا کې کله چې سپوږمۍ راووځي، نو د غرونو ښکلا نوره هم زړه راښکونکې شي.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling",
+      "Emotional"
+    ],
+    "tags": [
+      "Pashto Female",
+      "Tappa",
+      "Khyber",
+      "Poetry"
+    ]
+  },
+  {
+    "id": "sd-sarmad-sindhi-male",
+    "name": "Sarmad (سرمد - سنڌي سريلو آواز)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "Sindhi",
+    "languageCode": "sd-PK",
+    "accent": "Pakistani (Sufi Sindh Heritage)",
+    "description": "Deep, resonant Sindhi voice inspired by Shah Abdul Latif Bhittai poetry and ancient Indus Valley heritage.",
+    "sampleText": "سنڌوءَ جي لهرن مان اڄ به شاهه لطيف جي بيتن جي خوشبوءِ محسوس ٿئي ٿي.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Emotional"
+    ],
+    "tags": [
+      "Sindhi",
+      "Sufi",
+      "Shah Latif",
+      "Indus Valley"
+    ]
+  },
+  {
+    "id": "sd-marvi-sindhi-female",
+    "name": "Marvi (مارئي - مٺي سنڌي)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Sindhi",
+    "languageCode": "sd-PK",
+    "accent": "Pakistani (Thar & Hyderabad Melody)",
+    "description": "Lyrical Sindhi female storyteller voice for Thar desert tales, educational materials, and folklore narration.",
+    "sampleText": "ٿر جي واريءَ تي جڏهن برسات وسي ٿي، ته سڄي ڌرتي خوشبوءِ سان واسجي وڃي ٿي.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "jsCqWAovK2LkecY7zXl4",
+    "recommendedStyles": [
+      "Storytelling",
+      "Emotional",
+      "Calm"
+    ],
+    "tags": [
+      "Sindhi Female",
+      "Thar",
+      "Marvi",
+      "Folklore"
+    ]
+  },
+  {
+    "id": "bn-sourav-bengali-male",
+    "name": "Sourav (সৌরভ - গভীর কণ্ঠ)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "Bengali",
+    "languageCode": "bn-BD",
+    "accent": "Bengali (Dhaka & Kolkata Standard)",
+    "description": "Rich, poetic, and articulate Bengali male narrator for Rabindranath Tagore literature, history, and audio dramas.",
+    "sampleText": "মেঘের কোলে রোদ হেসেছে, বাদল গেছে টুটি—আজ আমাদের ছুটি ও ভাই, আজ আমাদের ছুটি।",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Storytelling",
+      "Documentary",
+      "Calm"
+    ],
+    "tags": [
+      "Bengali",
+      "Rabindranath",
+      "Poetic",
+      "Literature"
+    ]
+  },
+  {
+    "id": "bn-ishani-bengali-female",
+    "name": "Ishani (ঈশানী - মিষ্টি সুর)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Bengali",
+    "languageCode": "bn-BD",
+    "accent": "Bengali (Sweet & Melodic)",
+    "description": "Sweet, emotional Bengali female voice crafted for audiobooks, classic short stories, and cultural documentaries.",
+    "sampleText": "নদীর পাড়ে বসে সূর্যাস্তের মনোরম দৃশ্য দেখলে মন এক অপার্থিব শান্তিতে ভরে ওঠে।",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Emotional"
+    ],
+    "tags": [
+      "Bengali Female",
+      "Melodic",
+      "Audiobook"
+    ]
+  },
+  {
+    "id": "ta-selvam-tamil-male",
+    "name": "Selvam (செல்வம் - கம்பீர குரல்)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "Tamil",
+    "languageCode": "ta-IN",
+    "accent": "Tamil (Classical Chola Resonance)",
+    "description": "Deep, commanding Tamil voice for Thirukkural, historical epics like Ponniyin Selvan, and cultural documentaries.",
+    "sampleText": "அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு. இந்த குறள் வாழ்வின் மூலத்தை விளக்குகிறது.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Documentary",
+      "Dramatic",
+      "Serious"
+    ],
+    "tags": [
+      "Tamil",
+      "Ponniyin Selvan",
+      "Classical",
+      "Thirukkural"
+    ]
+  },
+  {
+    "id": "ta-kavitha-tamil-female",
+    "name": "Kavitha (கவிதா - மென்மையான கதைசொல்லி)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Tamil",
+    "languageCode": "ta-IN",
+    "accent": "Tamil (Articulate Chennai Melody)",
+    "description": "Clear, engaging Tamil female narrator for moral fables, news bulletins, and educational lectures.",
+    "sampleText": "அமைதியான இந்த மாலை வேளையில் இயற்கையின் அழகை ரசித்து மகிழ்வோம் வாருங்கள்.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Storytelling",
+      "Friendly",
+      "Calm"
+    ],
+    "tags": [
+      "Tamil Female",
+      "Chennai",
+      "Educational"
+    ]
+  },
+  {
+    "id": "te-venkat-telugu-male",
+    "name": "Venkat (వెంకట్ - గంభీర స్వరం)",
+    "gender": "male",
+    "category": "Cinematic Narrator",
+    "language": "Telugu",
+    "languageCode": "te-IN",
+    "accent": "Telugu (Epic Telugu Resonance)",
+    "description": "Resonant, cinematic Telugu male voice for mythological sagas, historical narrations, and motivational content.",
+    "sampleText": "సాహసమే ఊపిరిగా సాగే ప్రయాణంలో విజయం ఎప్పుడూ నిశ్చయమైన గుండెను వరిస్తుంది.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Telugu",
+      "Cinematic",
+      "Mythology"
+    ]
+  },
+  {
+    "id": "te-bhavana-telugu-female",
+    "name": "Bhavana (భావన - మధుర వాణి)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Telugu",
+    "languageCode": "te-IN",
+    "accent": "Telugu (Sweet Melodic)",
+    "description": "Warm, melodic Telugu female narrator for audiobooks, classic tales, and children learning series.",
+    "sampleText": "ప్రకృతి ఒడిలో గడిపే ప్రతి క్షణం మనసుకు ఎంతో ఉల్లాసాన్ని మరియు శాంతిని కలిగిస్తుంది.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Happy"
+    ],
+    "tags": [
+      "Telugu Female",
+      "Sweet Voice",
+      "Audiobooks"
+    ]
+  },
+  {
+    "id": "female-elena-deep",
+    "name": "Elena (Deep Alto Female)",
+    "gender": "female",
+    "category": "Deep Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Rich Smoky Alto)",
+    "description": "Sultry, rich, and deep female voice for film noir, luxury advertising, and sophisticated audiobook narrations.",
+    "sampleText": "The city never truly sleeps; it merely watches through neon reflections on rain-slicked asphalt.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Dramatic",
+      "Suspenseful",
+      "Calm"
+    ],
+    "tags": [
+      "Deep Female",
+      "Smoky Alto",
+      "Film Noir",
+      "Luxury"
+    ]
+  },
+  {
+    "id": "female-rachel-studio",
+    "name": "Rachel (US Studio Broadcaster)",
+    "gender": "female",
+    "category": "Professional Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Standard Broadcaster)",
+    "description": "Polished, trustworthy, and crystal-clear female voice for presentations, explainers, and global broadcasts.",
+    "sampleText": "Good morning. In our top story, breakthroughs in clean energy promise to reshape international economies.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Professional",
+      "Documentary",
+      "Friendly"
+    ],
+    "tags": [
+      "Professional Female",
+      "American Accent",
+      "Commercial",
+      "Corporate"
+    ]
+  },
+  {
+    "id": "female-charlotte-audiobook",
+    "name": "Charlotte (British Elegance)",
+    "gender": "female",
+    "category": "Audiobook Narrator",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Modern Classical)",
+    "description": "Refined and gentle British female voice with soothing rhythm, crafted for literature, period dramas, and luxury branding.",
+    "sampleText": "The rain tapped gently against the leaded glass windows, as the fireplace crackled with quiet contentment.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling",
+      "Emotional"
+    ],
+    "tags": [
+      "British Female",
+      "Audiobook Master",
+      "Calm Elegance"
+    ]
+  },
+  {
+    "id": "female-freya-warm",
+    "name": "Freya (Warm Natural Storyteller)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Pacific Coast Warmth)",
+    "description": "Organic, heartfelt conversational voice with expressive emotional warmth for podcasts and children fantasy tales.",
+    "sampleText": "Once upon a starlit night, deep inside the whispering glade, the fireflies ignited their secret celebration.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "jsCqWAovK2LkecY7zXl4",
+    "recommendedStyles": [
+      "Storytelling",
+      "Happy",
+      "Friendly"
+    ],
+    "tags": [
+      "Warm Storyteller",
+      "Heartfelt",
+      "Podcasts"
+    ]
+  },
+  {
+    "id": "female-nicole-whisper",
+    "name": "Nicole (ASMR & Meditation)",
+    "gender": "female",
+    "category": "Soft Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Intimate Whisper)",
+    "description": "Ultra-gentle, whisper-soft voice tailored for sleep meditation, mindfulness guides, and peaceful relaxation audio.",
+    "sampleText": "Take a slow, deep breath in... and exhale all tension from your shoulders into the quiet space around you.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "piTKgcLEGmPE4e6mEKli",
+    "recommendedStyles": [
+      "Calm"
+    ],
+    "tags": [
+      "ASMR",
+      "Whisper",
+      "Sleep Meditation",
+      "Mindfulness"
+    ]
+  },
+  {
+    "id": "female-hannah-motivational",
+    "name": "Hannah (Inspirational Speaker)",
+    "gender": "female",
+    "category": "Motivational Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Dynamic Mentor)",
+    "description": "Inspiring, positive, and vibrant female motivational speaker voice to empower listeners and energize audiences.",
+    "sampleText": "Your dreams are valid, your voice is powerful, and today is the day you step boldly into your full potential.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "AZnzlk1XvdvUeBnXmlld",
+    "recommendedStyles": [
+      "Excited",
+      "Happy",
+      "Storytelling"
+    ],
+    "tags": [
+      "Motivational Female",
+      "Empowerment",
+      "Positive Hype"
+    ]
+  },
+  {
+    "id": "female-victoria-regal",
+    "name": "Victoria (Regal Aristocrat)",
+    "gender": "female",
+    "category": "Rich & Warm Female",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Royal High Cadence)",
+    "description": "Stately, commanding, and cultured English female voice for period history, museum guides, and royal documentaries.",
+    "sampleText": "The tapestry woven in the fourteenth century reveals a masterwork of medieval allegories and royal heraldry.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Documentary",
+      "Calm",
+      "Professional"
+    ],
+    "tags": [
+      "Royal British",
+      "Museum Guide",
+      "Period Drama"
+    ]
+  },
+  {
+    "id": "female-morgan-cinematic",
+    "name": "Morgan (Cinematic Female Narrator)",
+    "gender": "female",
+    "category": "Cinematic Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Dramatic Suspense)",
+    "description": "Powerful, haunting, and cinematic female narrator voice for apocalyptic thrillers, supernatural audio, and trailers.",
+    "sampleText": "When the signal ceased transmitting, humanity realized we were not stranded—we had been forgotten.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Dramatic",
+      "Suspenseful",
+      "Serious"
+    ],
+    "tags": [
+      "Cinematic Female",
+      "Trailer",
+      "Sci-Fi Mystery"
+    ]
+  },
+  {
+    "id": "female-camille-nature-doc",
+    "name": "Camille (Documentary Female)",
+    "gender": "female",
+    "category": "Documentary Narrator",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Intelligent & Curious)",
+    "description": "Warm, knowledgeable narration for deep ocean explorations, space missions, and historical discoveries.",
+    "sampleText": "Miles beneath the ocean surface, hydrothermal vents foster strange ecosystems thriving without sunlight.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Documentary",
+      "Calm",
+      "Professional"
+    ],
+    "tags": [
+      "Nature Explainer",
+      "Ocean Documentary",
+      "Intelligent"
+    ]
+  },
+  {
+    "id": "female-serena-news",
+    "name": "Serena (Global News Presenter)",
+    "gender": "female",
+    "category": "News Presenter",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Anchorwoman Precision)",
+    "description": "Crisp, objective, fast-reacting delivery for prime-time news, live reporting, and international policy updates.",
+    "sampleText": "From our international desk, peace negotiations entered their decisive phase early this morning.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "pMsXgVXv3BLzUgSXRplE",
+    "recommendedStyles": [
+      "Professional",
+      "Serious"
+    ],
+    "tags": [
+      "News Presenter",
+      "Anchorwoman",
+      "International Desk"
+    ]
+  },
+  {
+    "id": "female-astrid-nordic",
+    "name": "Astrid (Nordic Calm Female)",
+    "gender": "female",
+    "category": "Calm Voice",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "Scandinavian English (Crystal Clarity)",
+    "description": "Pristine, minimalist, and tranquil female voice for architectural design tours, wellness apps, and acoustic storytelling.",
+    "sampleText": "Light filters through birch branches, illuminating clean wooden lines in quiet harmony with the northern landscape.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "piTKgcLEGmPE4e6mEKli",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Nordic Minimalist",
+      "Wellness",
+      "Acoustic"
+    ]
+  },
+  {
+    "id": "female-zoe-young-conversational",
+    "name": "Zoe (Friendly Young Female)",
+    "gender": "female",
+    "category": "Young Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Warm & Cheerful)",
+    "description": "Vibrant, friendly voice for TikTok voiceovers, casual podcast interviews, and social media storytelling.",
+    "sampleText": "Hey guys! You won’t believe what happened when we visited this hidden vintage bookstore downtown.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "MF3mGyEYCl7XYWbV9V6O",
+    "recommendedStyles": [
+      "Friendly",
+      "Excited",
+      "Happy"
+    ],
+    "tags": [
+      "TikTok Style",
+      "Social Media",
+      "Young Female"
+    ]
+  },
+  {
+    "id": "female-clara-audiobook-fantasy",
+    "name": "Clara (Fantasy Novel Narrator)",
+    "gender": "female",
+    "category": "Audiobook Narrator",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Enchanting Storyteller)",
+    "description": "Magical and enchanting British voice, ideal for young adult fantasy, mythical quests, and fairy tale worldbuilding.",
+    "sampleText": "The silver compass spun erratically, guiding the young sorceress toward the forbidden mountain gates.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Storytelling",
+      "Dramatic",
+      "Calm"
+    ],
+    "tags": [
+      "Fantasy Novel",
+      "Magic",
+      "Enchanting"
+    ]
+  },
+  {
+    "id": "female-gemma-australian",
+    "name": "Gemma (Australian Conversational)",
+    "gender": "female",
+    "category": "Friendly Female",
+    "language": "English (Australia)",
+    "languageCode": "en-AU",
+    "accent": "Australian (Sunny Sydney Tone)",
+    "description": "Upbeat, friendly Australian female voice for travel guides, outdoor lifestyle videos, and conversational ads.",
+    "sampleText": "G’day and welcome! We are exploring the stunning coastal tracks and turquoise bays of eastern Australia today.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "recommendedStyles": [
+      "Friendly",
+      "Happy",
+      "Excited"
+    ],
+    "tags": [
+      "Australian Female",
+      "Travel Guide",
+      "Sunny"
+    ]
+  },
+  {
+    "id": "female-monique-mature-deep",
+    "name": "Monique (Mature Deep Female)",
+    "gender": "female",
+    "category": "Mature Deep Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Sophisticated Contralto)",
+    "description": "Rich, mature female voice with profound gravitas for biographical memoirs, legal dramas, and historic essays.",
+    "sampleText": "Looking back across sixty years of judicial service, the arc of justice requires constant defense and courage.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "XB0fDUnXU5powFXDhCwa",
+    "recommendedStyles": [
+      "Serious",
+      "Documentary",
+      "Professional"
+    ],
+    "tags": [
+      "Mature Deep Female",
+      "Memoir",
+      "Judicial",
+      "Contralto"
+    ]
+  },
+  {
+    "id": "female-layla-emotional-drama",
+    "name": "Layla (Emotional Storytelling Female)",
+    "gender": "female",
+    "category": "Emotional Female",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "American (Heartstrings Resonance)",
+    "description": "Deeply expressive, emotional voice that touches listeners deeply in romantic fiction, dramatic audio, and tearjerkers.",
+    "sampleText": "Even as the train pulled away into the night, she knew that true love doesn’t measure distance—it measures devotion.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Emotional",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Heartstrings",
+      "Romance Novel",
+      "Emotional"
+    ]
+  },
+  {
+    "id": "spec-leo-child",
+    "name": "Leo (Child Voice)",
+    "gender": "male",
+    "category": "Child Voice",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "Playful Youth",
+    "description": "Cheerful, lively young boy voice for cartoons, children bedtime stories, animations, and game characters.",
+    "sampleText": "Look at that huge shooting star! Make a wish before it disappears behind the clouds!",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "jBpfuIE2acCO8z3wKNLl",
+    "recommendedStyles": [
+      "Excited",
+      "Happy",
+      "Friendly"
+    ],
+    "tags": [
+      "Child Voice",
+      "Animation",
+      "Cartoon",
+      "Storybook"
+    ]
+  },
+  {
+    "id": "spec-arthur-elderly",
+    "name": "Arthur (Wise Elder)",
+    "gender": "male",
+    "category": "Elderly Voice",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "Weathered Wisdom",
+    "description": "A raspy, warm, and seasoned elderly grandfather voice, seasoned with lifetime memories and soulful grandfatherly tales.",
+    "sampleText": "Sit down, my boy. Let me tell you how things were when the iron rails first met the frontier.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "yoZ06aMxZJJ28mfd3POQ",
+    "recommendedStyles": [
+      "Storytelling",
+      "Emotional",
+      "Calm"
+    ],
+    "tags": [
+      "Elderly Voice",
+      "Grandfather",
+      "Wisdom",
+      "Historical"
+    ]
+  },
+  {
+    "id": "spec-beatrice-grandmother",
+    "name": "Beatrice (Gentle Grandmother)",
+    "gender": "female",
+    "category": "Elderly Voice",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Warm Crone)",
+    "description": "Kind, grandmotherly English voice with gentle wisdom, warm teacups, and enchanting bedtime fairy stories.",
+    "sampleText": "Wrap yourself tight in your woolen quilt, my dear, while I tell you the tale of the silver owl.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Grandmother",
+      "Fairy Tales",
+      "Gentle British"
+    ]
+  },
+  {
+    "id": "spec-maya-cartoon",
+    "name": "Maya (Animated Sprite)",
+    "gender": "female",
+    "category": "Cartoon Voice",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "Vibrant Cartoon",
+    "description": "High-energy, quirky and cartoonish voice full of bounce, comic timing, and personality for video games.",
+    "sampleText": "Hold on tight! We are blasting straight through the rainbow nebula in three, two, one!",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "z9fAnlkpzviPz146aGWa",
+    "recommendedStyles": [
+      "Excited",
+      "Happy"
+    ],
+    "tags": [
+      "Cartoon",
+      "Animation",
+      "Gaming",
+      "Character"
+    ]
+  },
+  {
+    "id": "spec-gorgon-goblin",
+    "name": "Gorgon (Mischievous Goblin)",
+    "gender": "male",
+    "category": "Cartoon Voice",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "Squeaky Rascal",
+    "description": "Raspy, mischievous fantasy goblin voice for RPG games, comedy sketches, and animated tavern scenes.",
+    "sampleText": "Hehehe! Who left shiny gold coins unattended in my dungeon? Finders keepers, adventurers!",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "z9fAnlkpzviPz146aGWa",
+    "recommendedStyles": [
+      "Excited",
+      "Dramatic"
+    ],
+    "tags": [
+      "Goblin",
+      "Fantasy RPG",
+      "Comedy Character"
+    ]
+  },
+  {
+    "id": "spec-professor-barnaby",
+    "name": "Prof. Barnaby (Eccentric Inventor)",
+    "gender": "male",
+    "category": "Elderly Voice",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "British (Fastidious Academic)",
+    "description": "Fastidious, eccentric British professor with whimsical pauses for science fiction comedies and steampunk stories.",
+    "sampleText": "Eureka! If my quantum calculations are correct to within three decimals, the time dial should function perfectly!",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Excited",
+      "Storytelling"
+    ],
+    "tags": [
+      "Professor",
+      "Steampunk",
+      "Eccentric Genius"
+    ]
+  },
+  {
+    "id": "spec-luna-fairy",
+    "name": "Luna (Forest Pixie)",
+    "gender": "female",
+    "category": "Child Voice",
+    "language": "English (US)",
+    "languageCode": "en-US",
+    "accent": "Whimsical Bell",
+    "description": "Light, chime-like pixie voice for magical woodland fairy tales and fantasy nursery rhymes.",
+    "sampleText": "Follow the glowing mushrooms across the babbling brook, and never step on the sleeping clover!",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "jBpfuIE2acCO8z3wKNLl",
+    "recommendedStyles": [
+      "Happy",
+      "Calm"
+    ],
+    "tags": [
+      "Pixie",
+      "Fairy Tale",
+      "Magical",
+      "Nursery"
+    ]
+  },
+  {
+    "id": "spec-captain-blackwood",
+    "name": "Captain Blackwood (Old Sea Dog)",
+    "gender": "male",
+    "category": "Elderly Voice",
+    "language": "English (UK)",
+    "languageCode": "en-GB",
+    "accent": "West Country Pirate",
+    "description": "Weathered pirate captain voice full of salty sea tales, treasure maps, and high-seas adventures.",
+    "sampleText": "Ahoy matey! Many a brave sailor tried to round Dead Man’s Reef, but none returned to tell the tale.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "2EiwWnXFnvU5JabPnv8n",
+    "recommendedStyles": [
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Pirate",
+      "Sea Tales",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "ar-tariq-fusha",
+    "name": "Tariq Al-Bayan (طارق البيان)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "Arabic",
+    "languageCode": "ar-SA",
+    "accent": "Classical Arabic (Fusha)",
+    "description": "Eloquent, classical Arabic narrator with impeccable Tajweed-grade phonetic precision and poetic dignity.",
+    "sampleText": "في قديم الزمان، انطلقت قوافل الحكمة تعبر الصحراء حاملة مشاعل العلم إلى مشارق الأرض ومغاربها.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Documentary",
+      "Dramatic",
+      "Storytelling"
+    ],
+    "tags": [
+      "Classical Arabic",
+      "Fusha",
+      "Historical Documentary"
+    ]
+  },
+  {
+    "id": "ar-layla-melodic",
+    "name": "Layla (ليلى)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Arabic",
+    "languageCode": "ar-SA",
+    "accent": "Arabic (Melodic & Warm)",
+    "description": "Expressive female Arabic storyteller with graceful articulation for classical Arabian literature and audiobooks.",
+    "sampleText": "كانت شمس الصباح تشرق على واحات النخيل، فتبتسم الأرض بنعيم الحياة والأمل.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Storytelling",
+      "Emotional",
+      "Calm"
+    ],
+    "tags": [
+      "Arabic Female",
+      "Poetic",
+      "Arabian Tales"
+    ]
+  },
+  {
+    "id": "fa-reza-farsi-male",
+    "name": "Reza (رضا - راوی شاهنامه)",
+    "gender": "male",
+    "category": "Cinematic Narrator",
+    "language": "Persian / Farsi",
+    "languageCode": "fa-IR",
+    "accent": "Persian (Tehrani / Classical Shahnameh)",
+    "description": "Epic and lyrical Persian male voice for Hafez, Rumi, and classical epic poetry readings.",
+    "sampleText": "به نام خداوند جان و خرد، کزین برتر اندیشه برنگذرد. داستان کهن پارسیان از این دیار آغاز می‌شود.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Storytelling",
+      "Dramatic",
+      "Calm"
+    ],
+    "tags": [
+      "Persian",
+      "Farsi",
+      "Shahnameh",
+      "Rumi"
+    ]
+  },
+  {
+    "id": "tr-kerem-turkish-male",
+    "name": "Kerem (Kerem - Derin Ses)",
+    "gender": "male",
+    "category": "Deep Male",
+    "language": "Turkish",
+    "languageCode": "tr-TR",
+    "accent": "Turkish (Istanbul Standard)",
+    "description": "Smooth, deep Turkish male voice for historical Ottoman documentaries, audiobooks, and thriller podcasts.",
+    "sampleText": "Boğazın serin sularında yankılanan martı sesleri, bin yıllık bir şehrin sırlarını fısıldar.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Documentary",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Turkish",
+      "Istanbul",
+      "Deep Voice",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tr-elif-turkish-female",
+    "name": "Elif (Elif - Sıcak Anlatıcı)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Turkish",
+    "languageCode": "tr-TR",
+    "accent": "Turkish (Expressive Modern)",
+    "description": "Warm and expressive Turkish female storyteller for novels, children tales, and cultural series.",
+    "sampleText": "Kapadokya’nın masalsı vadilerinde güneş batarken, gökyüzü rengarenk sıcak hava balonlarıyla dolar.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Storytelling",
+      "Happy",
+      "Calm"
+    ],
+    "tags": [
+      "Turkish Female",
+      "Cappadocia",
+      "Audiobook"
+    ]
+  },
+  {
+    "id": "ru-dmitri-russian-male",
+    "name": "Dmitri (Дмитрий - Баритон)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "Russian",
+    "languageCode": "ru-RU",
+    "accent": "Russian (Moscow Classic)",
+    "description": "Deep, resonant Russian baritone for Tolstoy, Dostoevsky, and dramatic historical narration.",
+    "sampleText": "В глуши сибирской тайги, где снежные бури не утихают неделями, зарождалась эта великая легенда.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "TxGEqnHWrfWFTfGW9XjX",
+    "recommendedStyles": [
+      "Dramatic",
+      "Documentary",
+      "Serious"
+    ],
+    "tags": [
+      "Russian",
+      "Baritone",
+      "Dostoevsky",
+      "Classic"
+    ]
+  },
+  {
+    "id": "ru-elena-russian-female",
+    "name": "Elena (Елена - Душевный Голос)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Russian",
+    "languageCode": "ru-RU",
+    "accent": "Russian (Saint Petersburg Melodic)",
+    "description": "Soulful and expressive Russian female voice for poetry, audio drama, and fairy tales.",
+    "sampleText": "Белые ночи Петербурга озаряли тихие набережные, наполняя город романтическим волшебством.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Emotional",
+      "Storytelling",
+      "Calm"
+    ],
+    "tags": [
+      "Russian Female",
+      "Saint Petersburg",
+      "Soulful"
+    ]
+  },
+  {
+    "id": "es-carlos",
+    "name": "Carlos (Narrador Español)",
+    "gender": "male",
+    "category": "Cinematic Narrator",
+    "language": "Spanish",
+    "languageCode": "es-ES",
+    "accent": "Castilian & Latin American Master",
+    "description": "Rich Spanish narrator with theatrical depth for trailers, mysteries, and captivating historical accounts.",
+    "sampleText": "Bajo la sombra de los Andes, una antigua leyenda despierta para desafiar el paso de los siglos.",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Dramatic",
+      "Suspenseful",
+      "Storytelling"
+    ],
+    "tags": [
+      "Spanish Narrator",
+      "Castilian",
+      "Cinematic"
+    ]
+  },
+  {
+    "id": "es-sofia-warm",
+    "name": "Sofía (Voz Cálida)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Spanish",
+    "languageCode": "es-ES",
+    "accent": "Spanish (Latin American Melody)",
+    "description": "Engaging, lyrical female Spanish storyteller with warm cadence for audiobooks and educational productions.",
+    "sampleText": "Las historias que nos contaban los abuelos al calor del fogón siguen vivas en nuestra memoria.",
+    "prebuiltVoice": "Zephyr",
+    "elevenLabsVoiceId": "EXAVITQu4vr4xnSDxMaL",
+    "recommendedStyles": [
+      "Storytelling",
+      "Happy",
+      "Calm"
+    ],
+    "tags": [
+      "Spanish Female",
+      "Warm Narration",
+      "Audiobooks"
+    ]
+  },
+  {
+    "id": "de-johannes",
+    "name": "Johannes (Deutscher Erzähler)",
+    "gender": "male",
+    "category": "Documentary Narrator",
+    "language": "German",
+    "languageCode": "de-DE",
+    "accent": "Standard German (Hochdeutsch)",
+    "description": "Precise, authoritative, and deep German narrator for scientific documentaries, philosophy, and audiobooks.",
+    "sampleText": "Die Erforschung des Kosmos eröffnet uns neue Horizonte und wirft grundlegende Fragen über unsere Existenz auf.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Documentary",
+      "Serious",
+      "Professional"
+    ],
+    "tags": [
+      "German Hochdeutsch",
+      "Science Documentary",
+      "Authoritative"
+    ]
+  },
+  {
+    "id": "de-greta-clear",
+    "name": "Greta (Klare Stimme)",
+    "gender": "female",
+    "category": "Professional Female",
+    "language": "German",
+    "languageCode": "de-DE",
+    "accent": "Standard German (Professional)",
+    "description": "Crystal-clear, pleasant German female narrator for tutorials, culture podcasts, and audiobooks.",
+    "sampleText": "Willkommen zu unserer Reise durch die Kunst und Philosophie des europäischen Barock.",
+    "prebuiltVoice": "Kore",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Professional",
+      "Calm",
+      "Friendly"
+    ],
+    "tags": [
+      "German Female",
+      "Clear Voice",
+      "Podcasts"
+    ]
+  },
+  {
+    "id": "fr-antoine-paris",
+    "name": "Antoine (Narrateur Parisien)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "French",
+    "languageCode": "fr-FR",
+    "accent": "Standard French (Parisian Elegance)",
+    "description": "Refined European French male narrator for classic French literature, luxury commercials, and documentaries.",
+    "sampleText": "Au détour des ruelles pavées de Montmartre, chaque pierre garde en mémoire l’esprit des peintres bohèmes.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "Zlb1dXrM653N07WRdFW3",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Professional"
+    ],
+    "tags": [
+      "French",
+      "Parisian",
+      "Elegance",
+      "Literature"
+    ]
+  },
+  {
+    "id": "fr-camille-paris",
+    "name": "Camille (Voix Douce de France)",
+    "gender": "female",
+    "category": "Soft Female",
+    "language": "French",
+    "languageCode": "fr-FR",
+    "accent": "French (Subtle & Lyrical)",
+    "description": "Delicate, lyrical French female voice for poetry, guided relaxation, and culinary journeys.",
+    "sampleText": "Laissez-vous bercer par la brise marine le long des falaises d’Étretat sous le soleil couchant.",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "piTKgcLEGmPE4e6mEKli",
+    "recommendedStyles": [
+      "Calm",
+      "Emotional",
+      "Storytelling"
+    ],
+    "tags": [
+      "French Female",
+      "Lyrical",
+      "Poetic"
+    ]
+  },
+  {
+    "id": "it-marco-italian-male",
+    "name": "Marco (Voce Italiana Profonda)",
+    "gender": "male",
+    "category": "Rich Baritone Male",
+    "language": "Italian",
+    "languageCode": "it-IT",
+    "accent": "Italian (Tuscan Classical)",
+    "description": "Passionate and rich Italian baritone for art history, Renaissance documentaries, and operatic narration.",
+    "sampleText": "Tra le colline dorate della Toscana, l’arte del Rinascimento risvegliò l’animo di tutta l’Europa.",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Storytelling",
+      "Documentary",
+      "Emotional"
+    ],
+    "tags": [
+      "Italian",
+      "Renaissance",
+      "Tuscany",
+      "Baritone"
+    ]
+  },
+  {
+    "id": "pt-mateus-brazil-male",
+    "name": "Mateus (Voz Brasileira Calorosa)",
+    "gender": "male",
+    "category": "Friendly Male",
+    "language": "Portuguese",
+    "languageCode": "pt-BR",
+    "accent": "Portuguese (Brazilian Warmth)",
+    "description": "Warm, rhythmic Brazilian Portuguese voice for travel documentaries, sports, and motivational podcasts.",
+    "sampleText": "No coração da floresta amazônica, a grandiosidade da natureza se manifesta em cada canto.",
+    "prebuiltVoice": "Puck",
+    "elevenLabsVoiceId": "ErXwobaYiN019PkySvjV",
+    "recommendedStyles": [
+      "Friendly",
+      "Happy",
+      "Storytelling"
+    ],
+    "tags": [
+      "Brazilian Portuguese",
+      "Amazon",
+      "Warmth"
+    ]
+  },
+  {
+    "id": "ja-kenji",
+    "name": "Kenji (ナレーター 健二)",
+    "gender": "male",
+    "category": "Storytelling Male",
+    "language": "Japanese",
+    "languageCode": "ja-JP",
+    "accent": "Tokyo Standard Japanese",
+    "description": "Melodic and respectful Japanese narrator for historical lore, anime narration, and calm documentaries.",
+    "sampleText": "桜の花びらが静かに水面に舞い落ちる季節、古い城下町には静寂が漂っていました。",
+    "prebuiltVoice": "Fenrir",
+    "elevenLabsVoiceId": "pNInz6obpgDQGcFmaJgB",
+    "recommendedStyles": [
+      "Storytelling",
+      "Calm",
+      "Dramatic"
+    ],
+    "tags": [
+      "Japanese Narrator",
+      "Anime",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "ja-aoi-expressive",
+    "name": "Aoi (葵)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Japanese",
+    "languageCode": "ja-JP",
+    "accent": "Japanese (Expressive Melodic)",
+    "description": "Gentle, expressive Japanese female voice for audio drama, light novels, and meditation.",
+    "sampleText": "星空を見上げながら、遥か遠い未来に思いを馳せる夜の静けさ。",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "ThT5KcBeYPX3keUQqHPh",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling"
+    ],
+    "tags": [
+      "Japanese Female",
+      "Light Novel",
+      "Gentle"
+    ]
+  },
+  {
+    "id": "zh-ming",
+    "name": "Ming (普通话 鸣)",
+    "gender": "male",
+    "category": "Professional Male",
+    "language": "Chinese (Mandarin)",
+    "languageCode": "zh-CN",
+    "accent": "Standard Mandarin (Beijing Broadcast)",
+    "description": "Crisp, eloquent Standard Mandarin voice for audiobooks, culture documentaries, and news presentations.",
+    "sampleText": "万里长城蜿蜒于崇山峻岭之间，见证了千百年来华夏大地的风云变幻。",
+    "prebuiltVoice": "Charon",
+    "elevenLabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+    "recommendedStyles": [
+      "Professional",
+      "Documentary",
+      "Storytelling"
+    ],
+    "tags": [
+      "Mandarin Chinese",
+      "Broadcast Standard",
+      "Culture"
+    ]
+  },
+  {
+    "id": "zh-lin-melodic",
+    "name": "Lin (林 - 温暖讲述)",
+    "gender": "female",
+    "category": "Storytelling Female",
+    "language": "Chinese (Mandarin)",
+    "languageCode": "zh-CN",
+    "accent": "Standard Mandarin (Warm Melodic)",
+    "description": "Warm and gentle female narrator for historical novels, bedtime literature, and Chinese poetry.",
+    "sampleText": "江南春雨绵绵，青石板路上泛着微光，古老的桥梁诉说着千年的故事。",
+    "prebuiltVoice": "Aoede",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "recommendedStyles": [
+      "Calm",
+      "Storytelling",
+      "Emotional"
+    ],
+    "tags": [
+      "Mandarin Female",
+      "Poetry",
+      "Chinese Tales"
+    ]
+  }
+];

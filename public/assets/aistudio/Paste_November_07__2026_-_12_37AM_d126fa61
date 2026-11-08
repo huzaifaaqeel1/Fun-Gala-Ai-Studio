@@ -1,0 +1,966 @@
+# ULTIMATE MASTER PROMPT — COMPLETE TEXT TO SPEECH GENERATOR REPAIR, LONG-FORM AUDIO GENERATION & PREMIUM HUMAN-LIKE AI VOICE LIBRARY
+
+## FIX GENERATION ERRORS, REMOVE THE 147-CHARACTER LIMIT, IMPLEMENT LONG-FORM TEXT-TO-SPEECH, AND ADD 100–150+ GENUINE PREMIUM MALE AND FEMALE AI VOICES
+
+# MAIN OBJECTIVE
+
+I want you to carefully inspect, repair, upgrade, and improve my existing **Text to Speech Generator** website.
+
+My website is already built. Most of its features, design, backend, database, authentication, and integrations are working.
+
+**IMPORTANT: DO NOT rebuild the website from scratch.**
+
+Preserve my existing website, dashboard design, navigation, authentication, database, API integrations, voice settings, audio library, and all other working features.
+
+I want you to solve THREE major problems:
+
+1. Fix the Generation Error that appears after approximately five successful generation requests.
+2. Completely remove the artificial 147-character restriction and implement reliable long-form text-to-speech generation.
+3. Upgrade the existing Voice Library to at least 100–150+ genuine, premium-quality male and female AI voices wherever actual provider availability permits.
+
+My highest priority is **realistic, professional, natural-sounding human voices**.
+
+I do not want robotic, artificial, flat, metallic, or computer-generated-sounding speech.
+
+When someone listens to the generated audio, it should feel like a real person is speaking naturally.
+
+Fix the generation engine first, implement long-text processing second, and upgrade the voice library third.
+
+---
+
+# 1. CRITICAL PRIORITY — FIX THE REPEATED GENERATION ERROR
+
+My website currently generates approximately five voices successfully. After that, it starts showing:
+
+**Generation Error**
+
+This problem must be investigated and fixed at its actual technical root.
+
+Do not hide the error message or display fake successful results.
+
+## Inspect the complete generation pipeline
+
+Carefully inspect:
+
+- AI voice API connection.
+- API authentication and authorization.
+- API request limits and quotas.
+- Provider voice IDs.
+- Backend generation endpoints.
+- Frontend generation requests.
+- Server logs and error traces.
+- API response handling.
+- Audio file processing.
+- Database operations.
+- Audio storage.
+- Concurrent generation requests.
+- Request timeouts.
+- Provider rate limits.
+- Network failures.
+- Failed generation retries.
+- Temporary file handling.
+- Server memory and resource usage.
+
+Identify the exact reason why generation works for the first five requests and then fails.
+
+## Required fixes
+
+1. Fix API authentication and connection issues.
+2. Verify that every selected voice has a valid provider voice ID.
+3. Ensure the backend supports repeated generation requests.
+4. Implement safe request queuing and rate-limit handling.
+5. Add exponential backoff for temporary errors.
+6. Prevent duplicate requests caused by repeated Generate button clicks.
+7. Handle long-running generation jobs without premature timeouts.
+8. Properly process and save generated audio files.
+9. Release temporary resources after generation.
+10. Handle API errors without breaking the entire application.
+11. Ensure one failed generation does not stop other requests.
+12. Display the actual error reason when generation fails.
+
+## Reliability testing
+
+Test at least 30–50 sequential generation requests using valid available voices, subject to the provider's actual limits.
+
+Also test repeated requests using different male and female voices.
+
+Do not claim that the problem is fixed until actual tests have been completed.
+
+If the provider imposes a genuine usage quota, explain it clearly.
+
+---
+
+# 2. REMOVE THE 147-CHARACTER LIMIT COMPLETELY
+
+Currently, my text editor only accepts approximately 147 Urdu characters. If I enter more text, the website refuses to generate speech.
+
+**Remove this artificial 147-character restriction completely.**
+
+I want to paste entire Urdu stories, long chapters, books, scripts, and lengthy paragraphs in one attempt.
+
+## Required text capacity
+
+Support large text inputs such as:
+
+- 500 characters.
+- 1,000 characters.
+- 5,000 characters.
+- 10,000 characters.
+- 20,000 characters.
+- 50,000 characters.
+- 100,000 characters.
+- Even longer content when the actual system architecture and provider limits permit.
+
+Do not impose an artificial application-level character limit.
+
+Inspect and fix:
+
+- Frontend textarea maxLength.
+- Frontend input validation.
+- Backend request validation.
+- API request payload limits.
+- Provider-specific character limits.
+- Database text column types and limits.
+- Server request-size limits.
+- Background job limits.
+- Generation timeout settings.
+- Text chunking logic.
+
+Do not assume that removing the frontend limit fixes the backend.
+
+Use suitable database text fields and request-handling architecture for large Unicode text.
+
+The complete original text must be preserved.
+
+---
+
+# 3. INTELLIGENT LONG-FORM TEXT-TO-SPEECH ENGINE
+
+If the selected AI provider cannot process the complete text in one request, automatically divide it into smaller sections according to that provider's actual supported limits.
+
+This entire process must happen automatically in the backend.
+
+I should never have to manually split my story.
+
+## Example: 20,000-character Urdu story
+
+When I paste a 20,000-character story and click Generate Speech:
+
+1. Accept the entire story.
+2. Store or safely preserve the original text.
+3. Calculate its character and word counts.
+4. Detect the selected language when automatic detection is enabled.
+5. Identify the selected provider and its actual text limits.
+6. Divide the story into suitable sections.
+7. Prefer paragraph and sentence boundaries when splitting.
+8. Generate audio for every section.
+9. Use the same selected voice for every section.
+10. Maintain consistent voice settings and pronunciation.
+11. Generate sections in the correct order.
+12. Preserve all generated audio sections.
+13. Combine them into one continuous audio file.
+14. Produce one complete downloadable MP3.
+
+The user should only need to paste the complete story once and click Generate Speech once.
+
+## Important chunking requirements
+
+- Never split in the middle of a word if avoidable.
+- Prefer sentence boundaries.
+- Preserve paragraph order.
+- Preserve punctuation.
+- Preserve Urdu, Hindi, and English Unicode characters.
+- Preserve the original text exactly.
+- Never skip sentences.
+- Never duplicate sentences.
+- Never silently truncate content.
+- Respect each provider's actual request limits.
+- Use configurable chunk sizes based on the selected provider and model.
+
+Do not use one fixed chunk size for every provider.
+
+---
+
+# 4. URDU, HINDI AND ENGLISH TEXT PRESERVATION
+
+Urdu support is a top priority.
+
+The system must properly process:
+
+- Pakistani Urdu.
+- Urdu stories.
+- Urdu paragraphs.
+- Urdu books and chapters.
+- Hindi scripts.
+- English scripts.
+- Mixed-language content where supported.
+
+Maintain correct right-to-left display for Urdu in the editor.
+
+Ensure that text splitting does not damage Urdu characters, punctuation, or sentence structure.
+
+Do not translate the user's text automatically.
+
+Generate speech in the original language unless the user explicitly requests translation.
+
+The generated audio must cover the entire original story from beginning to end.
+
+---
+
+# 5. LONG-GENERATION PROGRESS AND JOB MANAGEMENT
+
+For long stories, display genuine generation progress.
+
+Show:
+
+- Total characters.
+- Total words.
+- Total sections.
+- Completed sections.
+- Remaining sections.
+- Current section being generated.
+- Generation progress percentage.
+- Current generation status.
+
+Example:
+
+Story: 20,000 characters
+
+Sections: 20
+
+Completed: 8/20
+
+Remaining: 12
+
+Progress: 40%
+
+The progress must reflect actual backend job completion, not a fake animation or timer.
+
+## Job management
+
+Implement reliable background generation jobs so that long stories do not depend on one browser request staying open.
+
+Save the generation job state, including:
+
+- Original text.
+- Selected voice.
+- Provider and model.
+- Voice settings.
+- Section boundaries.
+- Completed section IDs.
+- Failed section IDs.
+- Generated audio locations.
+- Job status.
+- Final merged audio location.
+
+Allow the user to leave the page and return without losing the generation status, wherever the existing architecture supports it.
+
+---
+
+# 6. FAILURE RECOVERY FOR LONG STORIES
+
+If one section fails:
+
+- Retry temporary errors safely.
+- Use exponential backoff.
+- Preserve successfully generated sections.
+- Retry only the failed section.
+- Avoid duplicate audio generation.
+- Avoid restarting the entire story unnecessarily.
+- Allow manual retry.
+- Display the actual failure reason.
+- Preserve the original text and voice settings.
+
+Do not retry permanent errors indefinitely.
+
+Use safe job and section identifiers so retries do not create duplicate final audio.
+
+A temporary provider failure must not destroy all previously generated work.
+
+---
+
+# 7. FINAL COMPLETE MP3 OUTPUT
+
+After all sections have been successfully generated:
+
+1. Combine the audio sections in their original order.
+2. Preserve natural pauses between sections.
+3. Maintain consistent audio quality and format.
+4. Produce one complete MP3.
+5. Calculate and display the actual audio duration.
+6. Provide a working audio player.
+7. Allow playback and download.
+8. Save the final audio in My Audio Library.
+9. Associate the final audio with the original complete text and selected voice.
+
+Use reliable backend audio-processing tools such as FFmpeg where supported.
+
+Verify that the final MP3 is valid, playable, and complete.
+
+Do not mark the job as successful if any section is missing or the final merge fails.
+
+---
+
+# 8. UPGRADE THE VOICE LIBRARY TO 100–150+ GENUINE PREMIUM AI VOICES
+
+My current website only provides approximately five voices.
+
+I want a professional AI Voice Library with at least 100–150 different high-quality voice options wherever genuine provider inventory permits.
+
+**Do not create fake voices by changing names, descriptions, or pitch settings.**
+
+Fetch real available voices from the connected AI providers.
+
+Use ElevenLabs as the preferred provider if it is already integrated.
+
+If one provider does not offer enough suitable voices, investigate additional legitimate TTS providers and integrate them where technically compatible.
+
+Create one unified Voice Library that can manage voices from all connected providers.
+
+Only display voices with genuine working provider IDs.
+
+If 100–150 genuine voices cannot be obtained, show the actual available number and explain what additional provider integrations would be required.
+
+**Voice quality is more important than the total number of voices.**
+
+I would rather have 50 excellent human-like voices than 150 poor-quality robotic voices.
+
+---
+
+# 9. PREMIUM MALE VOICES — HIGH PRIORITY
+
+Add a wide variety of genuine, professional male voices.
+
+I specifically want deep, powerful, natural, expressive, and realistic male voices.
+
+## Deep, bass and baritone male voices
+
+Include genuine available options in categories such as:
+
+- Ultra Deep Bass Male.
+- Deep Bass Male.
+- Rich Baritone Male.
+- Deep Baritone Male.
+- Powerful Deep Male.
+- Mature Deep Male.
+- Cinematic Deep Male.
+- Rich and Powerful Male.
+- Strong Authoritative Male.
+- Deep Documentary Narrator.
+- Serious Male Narrator.
+- Professional Deep Male.
+
+These must be genuinely suitable deep voices, not ordinary voices artificially lowered using pitch adjustments.
+
+## Motivational male voices
+
+Create a dedicated Motivational Male Voices category.
+
+Include:
+
+- Powerful Motivational Speaker.
+- Deep Motivational Narrator.
+- Energetic Motivational Male.
+- Inspirational Male.
+- Confident Speaker.
+- Strong Leadership Voice.
+- Emotional Motivational Voice.
+- Cinematic Speech Narrator.
+- Powerful Documentary Narrator.
+- Deep Inspirational Voice.
+
+These voices should sound confident, energetic, powerful, expressive, and natural.
+
+## Professional and storytelling male voices
+
+Include:
+
+- Natural Conversational Male.
+- Mature Professional Male.
+- Warm and Friendly Male.
+- Confident Presenter Male.
+- Professional Documentary Narrator.
+- Cinematic Narrator.
+- Emotional Storytelling Male.
+- Natural Storyteller.
+- Deep Story Narrator.
+- Suspense Story Narrator.
+- Dramatic Story Narrator.
+- Audiobook Narrator.
+- Serious News Presenter.
+- Energetic Young Male.
+- Calm and Relaxed Male.
+
+---
+
+# 10. PREMIUM FEMALE VOICES — HIGH PRIORITY
+
+I also want a large variety of genuine, professional, realistic female voices.
+
+Do not provide only a few ordinary female voices.
+
+Include:
+
+## Deep and rich female voices
+
+- Deep Female.
+- Rich and Warm Female.
+- Mature Deep Female.
+- Powerful Female.
+- Cinematic Female.
+
+## Natural and professional female voices
+
+- Natural Female.
+- Warm Natural Female.
+- Soft and Gentle Female.
+- Mature Professional Female.
+- Confident Presenter Female.
+- Friendly Conversational Female.
+- Calm and Relaxed Female.
+- Energetic Young Female.
+- Professional Documentary Narrator.
+- News Presenter Female.
+
+## Emotional and storytelling female voices
+
+- Emotional Storytelling Female.
+- Motivational Female Speaker.
+- Audiobook Female Narrator.
+- Cinematic Female Narrator.
+- Dramatic Story Narrator.
+- Inspirational Female.
+- Educational Narrator.
+- Documentary Female Narrator.
+
+Female voices must sound natural, expressive, clear, and professional.
+
+Do not create artificial female voice variations simply by changing pitch.
+
+---
+
+# 11. PAKISTANI URDU VOICE LIBRARY — TOP PRIORITY
+
+I especially need natural, high-quality Pakistani Urdu voices.
+
+Create a dedicated Pakistani Urdu category.
+
+## Pakistani Urdu Male
+
+Include as many genuine options as available:
+
+- Deep Pakistani Male.
+- Mature Pakistani Male.
+- Young Pakistani Male.
+- Emotional Pakistani Male.
+- Motivational Pakistani Male.
+- Natural Storytelling Male.
+- Deep Urdu Narrator.
+- Documentary Narrator.
+- Professional Presenter.
+
+## Pakistani Urdu Female
+
+Include:
+
+- Natural Pakistani Female.
+- Soft Pakistani Female.
+- Mature Pakistani Female.
+- Deep Pakistani Female.
+- Emotional Pakistani Female.
+- Storytelling Female.
+- Professional Presenter.
+- Documentary Female.
+
+## Urdu pronunciation requirements
+
+- Natural Pakistani Urdu pronunciation.
+- Clear and understandable speech.
+- Correct Urdu word pronunciation.
+- Consistent accent.
+- Natural sentence flow.
+- Professional narration quality.
+
+Do not label Hindi-accented voices as Pakistani Urdu.
+
+Only classify a voice as Pakistani Urdu when its actual pronunciation and provider-supported language/accent are suitable.
+
+---
+
+# 12. ADDITIONAL VOICE CATEGORIES
+
+Where genuine voices or supported voice styles are available, include:
+
+- Child Voices.
+- Elderly Voices.
+- Cartoon Voices.
+- Educational Narrators.
+- Documentary Narrators.
+- News Presenters.
+- Audiobook Narrators.
+- Advertisement Voices.
+- Cinematic Narrators.
+- Calm Meditation Voices.
+- Energetic Presenters.
+- Serious Narrators.
+- Friendly Conversational Voices.
+- Emotional Narrators.
+
+These categories must represent actual available voices or supported voice styles.
+
+Do not invent additional voice identities.
+
+---
+
+# 13. INTERNATIONAL VOICES
+
+Provide genuine voices in supported languages, including:
+
+- Urdu.
+- Hindi.
+- American English.
+- British English.
+- Canadian English.
+- Australian English.
+- Canadian French.
+- French.
+- German.
+- Spanish.
+- Arabic.
+- Portuguese.
+- Italian.
+- Other provider-supported languages.
+
+Only display voices compatible with the selected language.
+
+Do not claim language or accent support without verification.
+
+---
+
+# 14. REALISTIC HUMAN-LIKE SPEECH — MOST IMPORTANT VOICE REQUIREMENT
+
+This is one of my most important requirements.
+
+I want the generated speech to sound like an actual human being is speaking.
+
+The voices should feel natural, realistic, professional, and expressive.
+
+**Do not give me robotic, artificial, metallic, flat, or emotionless voices.**
+
+Prioritize:
+
+- Realistic human vocal tone.
+- Natural sentence rhythm.
+- Human-like pronunciation.
+- Natural breathing and pauses where supported.
+- Proper emphasis on important words.
+- Natural emotional expression.
+- Realistic conversational delivery.
+- Smooth transitions between sentences.
+- Natural changes in intonation.
+- Clear pronunciation.
+- Consistent voice identity throughout long stories.
+- Professional narration quality.
+
+Avoid:
+
+- Robotic delivery.
+- Flat and emotionless speech.
+- Artificial-sounding pronunciation.
+- Repetitive unnatural intonation.
+- Excessive pauses.
+- Distorted or metallic audio.
+- Unnaturally exaggerated emotions.
+- Sudden changes in vocal tone.
+
+Use the best available neural or expressive TTS models supported by the connected providers.
+
+Where supported, use appropriate expressive or style controls to improve storytelling, narration, and conversational delivery.
+
+Do not claim that a voice is indistinguishable from a human. Prioritize the most natural result the actual model can produce.
+
+## Professional voice use cases
+
+The voices should be suitable for:
+
+- YouTube videos.
+- Urdu storytelling.
+- Hindi storytelling.
+- Audiobooks.
+- Motivational speeches.
+- Documentaries.
+- Educational videos.
+- Cinematic narration.
+- News and presentations.
+- Long-form story narration.
+- Professional voiceovers.
+
+---
+
+# 15. VOICE PREVIEW AND COMPARISON SYSTEM
+
+I want to test voices before selecting them.
+
+Every voice should have a genuine audio preview.
+
+Requirements:
+
+- Play Sample button.
+- Stop Sample button.
+- Real audio preview for the selected voice.
+- Correct provider voice ID.
+- No shared fake audio samples.
+- No fabricated preview recordings.
+
+If the provider does not supply a sample, generate a genuine preview using that exact voice where supported.
+
+## Same-text voice comparison
+
+Allow me to preview different male and female voices using the same sample text so I can compare their actual sound quality.
+
+Provide separate filters for:
+
+- Male.
+- Female.
+- Deep.
+- Bass.
+- Baritone.
+- Professional.
+- Motivational.
+- Storytelling.
+- Documentary.
+- Pakistani Urdu.
+- Hindi.
+- English.
+
+Make it easy to compare and select the best voice.
+
+---
+
+# 16. PROFESSIONAL VOICE LIBRARY INTERFACE
+
+Upgrade the existing Voice Library without changing the overall website design.
+
+Add or improve:
+
+- Search Voice.
+- Filter by Language.
+- Filter by Gender.
+- Filter by Accent.
+- Filter by Voice Type.
+- Filter by Deep Voices.
+- Filter by Bass Voices.
+- Filter by Baritone Voices.
+- Filter by Motivational Voices.
+- Filter by Storytelling Voices.
+- Filter by Professional Voices.
+- Favorites.
+
+Every voice card should display:
+
+1. Real voice name.
+2. Provider name.
+3. Language.
+4. Accent.
+5. Voice category.
+6. Short description.
+7. Play Sample button.
+8. Select Voice button.
+
+Do not show unavailable voices as active.
+
+---
+
+# 17. VOICE SETTINGS AND PROVIDER MANAGEMENT
+
+Preserve existing voice settings and expose only the controls supported by the selected provider and model.
+
+Where supported, provide:
+
+- Speed.
+- Pitch.
+- Stability.
+- Similarity.
+- Expressiveness.
+- Emotion or style.
+- Pause controls.
+
+Do not show controls that have no real effect.
+
+Use ElevenLabs as the preferred provider if it is already integrated.
+
+Inspect its actual available voices, models, and capabilities.
+
+If necessary, integrate additional legitimate AI TTS providers to increase the number of genuine voices.
+
+Create a unified voice management system.
+
+Every voice must have:
+
+- Provider name.
+- Provider voice ID.
+- Supported language.
+- Supported accent where verified.
+- Voice category.
+- Available settings.
+- Preview audio.
+- Active/inactive status.
+
+Never invent provider voice IDs.
+
+If a voice becomes unavailable, mark it unavailable and prevent failed generation requests from using it.
+
+Keep API keys and secrets securely on the backend. Never expose them in frontend code.
+
+---
+
+# 18. GENERATION QUEUE AND ERROR RECOVERY
+
+Implement a reliable generation queue for both normal and long-form text-to-speech requests.
+
+Requirements:
+
+- Process requests safely.
+- Respect provider rate limits.
+- Avoid unnecessary simultaneous requests.
+- Prevent duplicate jobs.
+- Retry temporary errors with exponential backoff.
+- Display genuine progress.
+- Allow retry after failure.
+- Preserve selected voice and original text.
+- Preserve completed audio sections.
+- Keep successful jobs independent from failed jobs.
+- Handle long-running tasks through background processing where supported.
+
+Do not retry permanent errors indefinitely.
+
+Do not create fake progress or fake audio.
+
+---
+
+# 19. NO-CREDIT-SYSTEM REQUIREMENT
+
+Preserve my existing no-credit-system requirement.
+
+Do not add:
+
+- Credits.
+- Coins.
+- Tokens.
+- Credit deductions.
+- Pay-per-generation UI.
+- Pricing cards.
+- Subscription plans.
+- Upgrade-to-Pro restrictions.
+- Payment pages.
+
+Do not introduce a new internal credit system.
+
+However, respect genuine third-party provider quotas, API usage limits, and charges.
+
+Do not claim that external API usage is unlimited or free if the provider charges for it.
+
+Explain genuine provider limits clearly without adding an internal credit system.
+
+---
+
+# 20. STRICT END-TO-END TESTING
+
+After completing all repairs and upgrades, test the actual system.
+
+## A. Generation reliability tests
+
+- Generate speech using 10 different male voices.
+- Generate speech using 10 different female voices.
+- Test deep male voices.
+- Test deep female voices.
+- Test bass and baritone voices.
+- Test motivational voices.
+- Test storytelling voices.
+- Test professional narrator voices.
+- Test Pakistani Urdu voices.
+- Test Hindi voices.
+- Test English voices.
+- Test repeated generation requests.
+- Test voice previews.
+- Test MP3 downloads.
+
+Run at least 30–50 sequential generation requests where provider limits permit.
+
+## B. Long-text tests
+
+Test the following actual input lengths:
+
+- 500 Urdu characters.
+- 1,000 Urdu characters.
+- 5,000 Urdu characters.
+- 10,000 Urdu characters.
+- 20,000 Urdu characters.
+
+Also test long Hindi and English scripts.
+
+Where the architecture permits, test 50,000 and 100,000-character inputs.
+
+Verify that:
+
+- The complete original text is preserved.
+- All sections are generated.
+- Section order is correct.
+- No sentences are skipped.
+- No sentences are duplicated.
+- No text is silently truncated.
+- The final MP3 contains the entire story.
+- The final audio is playable and downloadable.
+- The same selected voice is maintained across sections.
+
+Do not report successful testing based only on API responses or frontend messages.
+
+Verify actual generated audio and section completion.
+
+## C. Voice library tests
+
+Verify that:
+
+- At least 100–150 genuine voices are available if provider inventory permits.
+- Every voice has a valid provider ID.
+- Language and accent metadata are accurate.
+- Every preview matches its voice.
+- Different voices genuinely sound different.
+- Male and female voices are correctly categorized.
+- Deep and bass voices genuinely sound deep.
+- Professional voices are suitable for narration.
+- Unavailable voices are not displayed as working options.
+
+If the requested number cannot be achieved, report the actual number and the reason.
+
+---
+
+# 21. STRICT WEBSITE PRESERVATION
+
+This is an existing working project.
+
+DO NOT:
+
+- Rebuild the website from scratch.
+- Change the existing dashboard design unnecessarily.
+- Delete the existing database.
+- Delete generated audio.
+- Break authentication.
+- Remove existing working features.
+- Break existing API integrations.
+- Replace real API integrations with mock data.
+- Add fake voices.
+- Add fake audio previews.
+- Add a credit system.
+- Add subscription payments.
+
+Preserve the existing backend, database, authentication, audio storage, voice settings, and My Audio Library.
+
+Make safe, minimal, targeted changes.
+
+Back up important data before database migrations or destructive changes.
+
+---
+
+# 22. IMPLEMENTATION ORDER
+
+Follow this order carefully:
+
+## Phase 1 — Diagnose and fix generation errors
+
+- Inspect logs and API behavior.
+- Identify the actual cause of failures after approximately five generations.
+- Repair the generation pipeline.
+- Test repeated generation requests.
+
+## Phase 2 — Remove the 147-character restriction
+
+- Inspect frontend and backend validation.
+- Fix database and request-size limitations.
+- Accept large Unicode text.
+
+## Phase 3 — Implement long-form generation
+
+- Build provider-aware intelligent text splitting.
+- Add background job processing.
+- Implement section-level retries and recovery.
+- Merge completed sections into one MP3.
+
+## Phase 4 — Upgrade the Voice Library
+
+- Fetch genuine provider voices.
+- Add legitimate providers if required.
+- Create the unified voice library.
+- Add premium male and female voices.
+- Prioritize deep, bass, baritone, motivational, professional, and storytelling voices.
+- Prioritize natural Pakistani Urdu male and female voices.
+
+## Phase 5 — Improve voice realism
+
+- Use the best available natural and expressive TTS models.
+- Test voice samples.
+- Compare male and female voices using the same text.
+- Remove poor-quality or non-working voice entries.
+
+## Phase 6 — Verify everything
+
+- Test repeated generation.
+- Test long Urdu, Hindi, and English scripts.
+- Test male and female voices.
+- Test voice previews.
+- Test audio merging and downloads.
+- Verify that all existing website features still work.
+
+---
+
+# FINAL INSTRUCTION
+
+I want one professional, reliable, personal-use Text to Speech Generator website.
+
+I should be able to:
+
+1. Open my existing website.
+2. Paste an entire Urdu story, chapter, or book section — even 20,000, 50,000, or 100,000+ characters when technically supported.
+3. Select a genuine, premium-quality male or female AI voice.
+4. Choose deep, bass, baritone, motivational, storytelling, or professional narration styles where available.
+5. Click Generate Speech once.
+6. Let the backend automatically divide the text into sections.
+7. Generate every section using the same selected voice.
+8. Automatically recover from temporary section failures.
+9. Combine all sections into one complete MP3.
+10. Play and download the entire audio.
+11. Find the completed audio in My Audio Library.
+
+I also want at least 100–150 genuine high-quality voices wherever the connected providers actually make them available.
+
+My highest priorities are:
+
+- Realistic male voices.
+- Realistic female voices.
+- Ultra-deep male voices.
+- Deep bass voices.
+- Rich baritone voices.
+- Deep female voices.
+- Powerful motivational speakers.
+- Professional male and female narrators.
+- Natural conversational voices.
+- Emotional storytelling voices.
+- Pakistani Urdu male and female voices.
+- Hindi voices.
+- International English voices.
+
+**MOST IMPORTANT REQUIREMENTS:**
+
+- Fix the Generation Error at its actual technical root.
+- Permanently remove the artificial 147-character restriction.
+- Never truncate, skip, duplicate, or lose any part of my story.
+- Generate the complete spoken audio, not just the first section.
+- Use real AI voices and real provider integrations.
+- Prioritize natural, professional, human-like male and female voices.
+- Do not fill the library with low-quality robotic voices just to reach 150.
+- Preserve my existing website and all working features.
+- Do not claim anything is fixed, implemented, or tested until it has actually been verified.
+
+**My final goal: I want to paste my entire story once, select a beautiful, realistic male or female voice, click Generate Speech once, and receive one complete, professional-quality downloadable MP3.**
+
+**UPGRADE MY EXISTING WEBSITE. DO NOT REBUILD IT FROM SCRATCH.**

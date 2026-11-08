@@ -1,0 +1,6 @@
+{
+  "name": "TEXT TO SPEECH GENERATOR",
+  "description": "A premium, fully functional multilingual AI voice generation platform inspired by ElevenLabs, featuring realistic Pakistani Urdu storytelling voices, Hindi, English, Canadian French, and 40+ global languages with no credit system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
